@@ -1,0 +1,7 @@
+09:48:55
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.0257
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: a46c21df-296f-49b0-8d50-759d84798e2d	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Length: 0	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"3","user_id":"4","customer_id":"3","invoices_no":"4","payment_mode":"1","payment_date":"","amount":"660","cheque_number":"","bank_detail":"","transaction_detail":"cash","status":"1"},{"id":"2","user_id":"4","customer_id":"3","invoices_no":"4","payment_mode":"1","payment_date":"2022-12-02","amount":"560","cheque_number":"","bank_detail":"","transaction_detail":"cash","status":"0"},{"id":"1","user_id":"4","customer_id":"3","invoices_no":"4","payment_mode":"1","payment_date":"","amount":"300","cheque_number":"","bank_detail":"","transaction_detail":"","status":"0"}]}
+

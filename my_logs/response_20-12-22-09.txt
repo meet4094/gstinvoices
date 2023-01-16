@@ -1,0 +1,8 @@
+09:47:18
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getProfitReport
+Execute(Time)      : 0.0385
+HEADER   : Auth-token: 4rxatavzhtorNUH	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: 18b02166-3408-436e-93a6-1cbcc645418a	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------842011519119945673259731	 || 	Content-Length: 160	 || 	
+POST     : len=50
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"date":"12-2022","buygst":"246.0000","buyamount":"2293","sellgst":0,"sellamount":0},{"date":"11-2022","buygst":"754.0000","buyamount":"7043","sellgst":0,"sellamount":0},{"date":"10-2022","buygst":"600.0000","buyamount":"5597","sellgst":0,"sellamount":0}]}
+

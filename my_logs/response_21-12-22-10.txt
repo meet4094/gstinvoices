@@ -1,0 +1,316 @@
+10:22:25
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/logIn
+Execute(Time)      : 0.0257
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	request-token: li58W70knA6n7aY	 || 	Accept-Encoding: gzip	 || 	Content-Length: 128	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2220574292	 || 	
+POST     : mobile_number=1234567890
+Responce : {"statuscode":1,"msg":"Verify Otp sended successful.","data":{"uid":"4","mobile_number":"1234567890","otp":3173}}
+
+10:22:27
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/verifyOtp
+Execute(Time)      : 0.0622
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	request-token: li58W70knA6n7aY	 || 	Accept-Encoding: gzip	 || 	Content-Length: 209	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0935213085	 || 	
+POST     : mobile_number=1234567890&otp=3173
+Responce : {"statuscode":1,"msg":"Login successful.","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","prefix":"sae","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","auth_token":"VZ4tAsOg0SrDep9"}}
+
+10:22:28
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0318
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","prefix":"sae","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","customer":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"5","user_id":"4","trade_name":"SHREE"},{"id":"12","user_id":"4","trade_name":"SHREE GANESH"},{"id":"13","user_id":"4","trade_name":"SHREE GANESH"},{"id":"14","user_id":"4","trade_name":"SHREE GANESH"},{"id":"15","user_id":"4","trade_name":"desai"},{"id":"16","user_id":"4","trade_name":"shah"},{"id":"17","user_id":"4","trade_name":"sharma"},{"id":"18","user_id":"4","trade_name":"Mendpara"},{"id":"21","user_id":"4","trade_name":"Mangukiya"}],"shopper":[{"id":"31","user_id":"4","trade_name":"ghj"},{"id":"37","user_id":"4","trade_name":"dfg"},{"id":"44","user_id":"4","trade_name":"shah"},{"id":"45","user_id":"4","trade_name":"asd"},{"id":"47","user_id":"4","trade_name":"abc"},{"id":"49","user_id":"4","trade_name":"asd"},{"id":"50","user_id":"4","trade_name":"Tiya"},{"id":"51","user_id":"4","trade_name":"sharma"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"5","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"11","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"12","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"13","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"14","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"15","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"24","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"25","user_id":"4","product_name":"abc","product_code":"4242"},{"id":"29","user_id":"4","product_name":"washing machine","product_code":"203"},{"id":"30","user_id":"4","product_name":"abc","product_code":"4242"},{"id":"31","user_id":"4","product_name":"washing machine","product_code":"7890"},{"id":"32","user_id":"4","product_name":"ac","product_code":"213"},{"id":"33","user_id":"4","product_name":"jklh","product_code":"561"}]}}
+
+10:22:58
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/logIn
+Execute(Time)      : 0.0189
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	request-token: li58W70knA6n7aY	 || 	Accept-Encoding: gzip	 || 	Content-Length: 128	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2726161396	 || 	
+POST     : mobile_number=7069246111
+Responce : {"statuscode":1,"msg":"Verify Otp sended successful.","data":{"uid":"31","mobile_number":"7069246111","otp":9390}}
+
+10:23:01
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/verifyOtp
+Execute(Time)      : 0.0886
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	request-token: li58W70knA6n7aY	 || 	Accept-Encoding: gzip	 || 	Content-Length: 209	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1921743721	 || 	
+POST     : mobile_number=7069246111&otp=9390
+Responce : {"statuscode":1,"msg":"Login successful.","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","auth_token":"JtTqZ9L1hcewH38"}}
+
+10:23:02
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0422
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:23:05
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.022
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2475576719	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"}]}
+
+10:23:10
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0098
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0162622903	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"}]}
+
+10:24:03
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0584
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:24:25
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0137
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2897608552	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"}]}
+
+10:24:30
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0156
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2152754018	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"}]}
+
+10:24:50
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0159
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2062056817	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"}]}
+
+10:25:15
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/addShopper
+Execute(Time)      : 0.03
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 728	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1461228756	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : leagel_name=&trade_name=mendpara&dealer_name=Anu&gst_number=fr548rfr&mobile_number=7069246111&address=surat&is_del=0
+Responce : {"statuscode":1,"msg":"shoppers created successfully."}
+
+10:25:16
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0089
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1397506374	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:25:46
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0222
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:25:59
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0201
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:26:04
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0281
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3026108359	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:26:10
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0168
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3766233269	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:26:36
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0216
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2418524872	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:30:38
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0357
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:30:43
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0312
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3017118966	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:31:02
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0543
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-4118887121	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:36:14
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0468
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:36:17
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0155
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2961390256	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:36:22
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0213
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1818483281	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:39:31
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0432
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1605702291	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:41:29
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0615
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:41:33
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.022
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0028483394	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:41:41
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0101
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1546857093	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:45:14
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0321
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3071222457	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:49:27
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.024
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3625687156	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"14","user_id":"31","trade_name":"Jiya","dealer_name":"Jiya Monpara","mobile_number":"9737532937","address":"yogichowk surat","gst_number":"894h7h89yj","created_date":"2022-11-28 14:15:02","modified_date":"2022-11-28 14:15:02","is_del":"0"},{"id":"16","user_id":"31","trade_name":"abu","dealer_name":"abu","mobile_number":"9737532937","address":"surat","gst_number":"g141gr4g","created_date":"2022-11-28 14:32:00","modified_date":"2022-11-28 14:32:00","is_del":"0"},{"id":"17","user_id":"31","trade_name":"Monprara","dealer_name":"Kiya","mobile_number":"9737532937","address":"surat","gst_number":"g45j7yj456","created_date":"2022-11-28 14:41:21","modified_date":"2022-11-28 14:41:21","is_del":"0"},{"id":"53","user_id":"31","trade_name":"mendpara","dealer_name":"Anu","mobile_number":"7069246111","address":"surat","gst_number":"fr548rfr","created_date":"2022-12-21 10:25:15","modified_date":"2022-12-21 10:25:15","is_del":"0"}]}
+
+10:49:43
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0279
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:50:49
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0213
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1551346544	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+10:50:56
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0152
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0014294674	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+10:51:09
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0148
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2939053175	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+10:51:16
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0143
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2605922260	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: JtTqZ9L1hcewH38	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"20","user_id":"31","leagel_name":"","trade_name":"Mangukiya","dealer_name":"Divya","mobile_number":"7369246111","address":"surat","place_of_supply":"surat","gst_number":"y89j46","created_date":"2022-12-09 12:37:12","modified_date":"2022-12-09 12:37:12","is_del":"0"}]}
+
+10:51:18
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.046
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:51:20
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0211
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0285684679	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: JtTqZ9L1hcewH38	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+10:51:23
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0225
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1925787039	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+10:51:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0238
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+10:53:54
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0352
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: JtTqZ9L1hcewH38	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"31","trade_name":"Divya","leagal_name":"Divya Mangukiya","prefix":"","gst_number":"GHJKL567780","mobile_number":"7069246111","address":"Mota varachha, surat","is_create_profile":"1","customer":[{"id":"20","user_id":"31","trade_name":"Mangukiya"}],"shopper":[{"id":"14","user_id":"31","trade_name":"Jiya"},{"id":"16","user_id":"31","trade_name":"abu"},{"id":"17","user_id":"31","trade_name":"Monprara"},{"id":"53","user_id":"31","trade_name":"mendpara"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+

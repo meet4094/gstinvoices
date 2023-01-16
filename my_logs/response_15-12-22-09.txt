@@ -1,0 +1,43 @@
+09:35:33
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0413
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: efa6b727-eca1-4ca7-a5ff-336a8970452a	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Length: 0	 || 	
+Responce : [{"id":"5","product_name":"abcd","buyqty":"253","sellqty":"30"},{"id":"11","product_name":"jari roll","buyqty":"25","sellqty":"48"},{"id":"12","product_name":"jari roll","buyqty":"47","sellqty":"23"},{"id":"13","product_name":"jari roll","buyqty":0,"sellqty":0},{"id":"14","product_name":"jari roll","buyqty":"1425","sellqty":"65"},{"id":"15","product_name":"jari roll","buyqty":0,"sellqty":0},{"id":"24","product_name":"abcd","buyqty":0,"sellqty":0},{"id":"25","product_name":"abc","buyqty":0,"sellqty":0}]
+
+09:38:01
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0328
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: a53fdf2c-5f88-4867-8fbe-68f63326c74a	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Cookie: cisession=a6256cf0732394daec6f94e31a2c7430f2d54c16	 || 	Content-Length: 0	 || 	
+Responce : [{"id":"5","product_name":"abcd","buyqty":null,"sellqty":null,"remain":0},{"id":"11","product_name":"jari roll","buyqty":null,"sellqty":null,"remain":0},{"id":"12","product_name":"jari roll","buyqty":null,"sellqty":null,"remain":0},{"id":"13","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"14","product_name":"jari roll","buyqty":null,"sellqty":null,"remain":0},{"id":"15","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"24","product_name":"abcd","buyqty":0,"sellqty":0,"remain":0},{"id":"25","product_name":"abc","buyqty":0,"sellqty":0,"remain":0}]
+
+09:38:04
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0243
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: 38b6b013-00cf-44c8-a8e7-bfbfd714db45	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Cookie: cisession=a6256cf0732394daec6f94e31a2c7430f2d54c16	 || 	Content-Length: 0	 || 	
+Responce : [{"id":"5","product_name":"abcd","buyqty":null,"sellqty":null,"remain":0},{"id":"11","product_name":"jari roll","buyqty":null,"sellqty":null,"remain":0},{"id":"12","product_name":"jari roll","buyqty":null,"sellqty":null,"remain":0},{"id":"13","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"14","product_name":"jari roll","buyqty":null,"sellqty":null,"remain":0},{"id":"15","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"24","product_name":"abcd","buyqty":0,"sellqty":0,"remain":0},{"id":"25","product_name":"abc","buyqty":0,"sellqty":0,"remain":0}]
+
+09:38:39
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0257
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: 8997fbb0-efb7-4db8-b12c-eccb55d2f71b	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Cookie: cisession=a6256cf0732394daec6f94e31a2c7430f2d54c16	 || 	Content-Length: 0	 || 	
+Responce : [{"id":"5","product_name":"abcd","buyqty":"253","sellqty":"30","remain":-223},{"id":"11","product_name":"jari roll","buyqty":"25","sellqty":"48","remain":23},{"id":"12","product_name":"jari roll","buyqty":"47","sellqty":"23","remain":-24},{"id":"13","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"14","product_name":"jari roll","buyqty":"1425","sellqty":"65","remain":-1360},{"id":"15","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"24","product_name":"abcd","buyqty":0,"sellqty":0,"remain":0},{"id":"25","product_name":"abc","buyqty":0,"sellqty":0,"remain":0}]
+
+09:39:09
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0256
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: 794ed181-7017-4c7a-a0e3-65327bd06186	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Cookie: cisession=a6256cf0732394daec6f94e31a2c7430f2d54c16	 || 	Content-Length: 0	 || 	
+Responce : [{"id":"5","product_name":"abcd","buyqty":"253","sellqty":"30","remain":223},{"id":"11","product_name":"jari roll","buyqty":"25","sellqty":"48","remain":-23},{"id":"12","product_name":"jari roll","buyqty":"47","sellqty":"23","remain":24},{"id":"13","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"14","product_name":"jari roll","buyqty":"1425","sellqty":"65","remain":1360},{"id":"15","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"24","product_name":"abcd","buyqty":0,"sellqty":0,"remain":0},{"id":"25","product_name":"abc","buyqty":0,"sellqty":0,"remain":0}]
+
+09:39:36
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0166
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: dab51c8d-4fc8-4cb9-8eb2-6d0e419bdb7f	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------797673961697076011093037	 || 	Cookie: cisession=a6256cf0732394daec6f94e31a2c7430f2d54c16	 || 	Content-Length: 160	 || 	
+POST     : len=50
+Responce : [{"id":"5","product_name":"abcd","buyqty":"253","sellqty":"30","remain":223},{"id":"11","product_name":"jari roll","buyqty":"25","sellqty":"48","remain":-23},{"id":"12","product_name":"jari roll","buyqty":"47","sellqty":"23","remain":24},{"id":"13","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"14","product_name":"jari roll","buyqty":"1425","sellqty":"65","remain":1360},{"id":"15","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"24","product_name":"abcd","buyqty":0,"sellqty":0,"remain":0},{"id":"25","product_name":"abc","buyqty":0,"sellqty":0,"remain":0}]
+

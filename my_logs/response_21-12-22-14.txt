@@ -1,0 +1,894 @@
+02:00:52
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0656
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+02:01:05
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0178
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0712466151	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"surat","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"}]}
+
+02:01:09
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0294
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+02:01:11
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0167
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3948551363	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:01:16
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0125
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0246302224	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"surat","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"}]}
+
+02:01:51
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0384
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+02:02:05
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0239
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1316409091	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"surat","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"}]}
+
+02:02:21
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0421
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+02:02:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0113
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1609159626	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"surat","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"}]}
+
+02:03:25
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/addShopper
+Execute(Time)      : 0.2176
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 725	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3025261391	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : leagel_name=&trade_name=khan&dealer_name=Hina&gst_number=cuffucj+&mobile_number=6352548486&address=surat&is_del=0
+Responce : {"statuscode":1,"msg":"shoppers created successfully."}
+
+02:03:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0149
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2228315671	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"surat","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"},{"id":"54","user_id":"57","trade_name":"khan","dealer_name":"Hina","mobile_number":"6352548486","address":"surat","gst_number":"cuffucj","created_date":"2022-12-21 14:03:25","modified_date":"2022-12-21 14:03:25","is_del":"0"}]}
+
+02:03:39
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/updateShopper
+Execute(Time)      : 0.0303
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 820	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2763469719	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : leagel_name=&trade_name=khunt&dealer_name=janki&gst_number=hsis288hsbs&mobile_number=6352648286&address=bhavnagar&shopper_id=52&is_del=0
+Responce : {"statuscode":1,"msg":"shopper updated successfully.","data":{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"bhavnagar","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"}}
+
+02:03:41
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0145
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3358245093	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"bhavnagar","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"},{"id":"54","user_id":"57","trade_name":"khan","dealer_name":"Hina","mobile_number":"6352548486","address":"surat","gst_number":"cuffucj","created_date":"2022-12-21 14:03:25","modified_date":"2022-12-21 14:03:25","is_del":"0"}]}
+
+02:03:51
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/deleteShopper
+Execute(Time)      : 0.0187
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3213119848	 || 	Accept-Encoding: gzip	 || 	Content-Length: 117	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : shopper_id=54
+Responce : {"statuscode":1,"msg":"shopper delete successfully."}
+
+02:03:52
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0173
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-4095989837	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"bhavnagar","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"}]}
+
+02:03:56
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0273
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+02:04:00
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.016
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0130682193	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:04:03
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0228
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0906775169	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:05:57
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/addCustomer
+Execute(Time)      : 0.0329
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1366961361	 || 	Accept-Encoding: gzip	 || 	Content-Length: 823	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : leagel_name=&trade_name=mendpara&dealer_name=Aansi&mobile_number=6352548486&gst_number=ifcj578&place_of_supply=surat&address=surat&is_del=0
+Responce : {"statuscode":1,"msg":"customer created successfully."}
+
+02:05:59
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0094
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3158841567	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"}]}
+
+02:06:43
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/addCustomer
+Execute(Time)      : 0.0377
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0116110149	 || 	Accept-Encoding: gzip	 || 	Content-Length: 824	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : leagel_name=&trade_name=khunt&dealer_name=janki&mobile_number=6352548486&gst_number=uch69cj468&place_of_supply=surat&address=amreli&is_del=0
+Responce : {"statuscode":1,"msg":"customer created successfully."}
+
+02:06:44
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0116
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0173072351	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"}]}
+
+02:07:17
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Customer/updateCustomer
+Execute(Time)      : 0.0388
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0058000068	 || 	Accept-Encoding: gzip	 || 	Content-Length: 840	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : leagel_name=janki&trade_name=khunt&dealer_name=janki&mobile_number=6352548486&gst_number=uch69cj468&place_of_supply=surat&address=amreli&customer_id=30&is_del=0
+Responce : {"statuscode":1,"msg":"customer updated successfully.","data":{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"}}
+
+02:07:22
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0108
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3442108426	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"}]}
+
+02:07:43
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Customer/updateCustomer
+Execute(Time)      : 0.0217
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2388149180	 || 	Accept-Encoding: gzip	 || 	Content-Length: 839	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : leagel_name=Aansi&trade_name=mendpara&dealer_name=Aansi&mobile_number=6352548486&gst_number=ifcj578&place_of_supply=surat&address=surat&customer_id=29&is_del=0
+Responce : {"statuscode":1,"msg":"customer updated successfully.","data":{"id":"29","user_id":"57","leagel_name":"Aansi","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"}}
+
+02:07:44
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0119
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1552626227	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"Aansi","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"}]}
+
+02:08:39
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/addCustomer
+Execute(Time)      : 0.0455
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2631014491	 || 	Accept-Encoding: gzip	 || 	Content-Length: 826	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : leagel_name=&trade_name=mangukiya&dealer_name=divya&mobile_number=6352548486&gst_number=czfj578gj&place_of_supply=surat&address=surat&is_del=0
+Responce : {"statuscode":1,"msg":"customer created successfully."}
+
+02:08:40
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0112
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3181291715	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"Aansi","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"},{"id":"31","user_id":"57","leagel_name":"","trade_name":"mangukiya","dealer_name":"divya","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"czfj578gj","created_date":"2022-12-21 14:08:39","modified_date":"2022-12-21 14:08:39","is_del":"0"}]}
+
+02:10:29
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Customer/updateCustomer
+Execute(Time)      : 0.0263
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1284141270	 || 	Accept-Encoding: gzip	 || 	Content-Length: 842	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : leagel_name=divya&trade_name=mangukiya&dealer_name=divya&mobile_number=6352548486&gst_number=czfj578gj&place_of_supply=surat&address=surat&customer_id=31&is_del=0
+Responce : {"statuscode":1,"msg":"customer updated successfully.","data":{"id":"31","user_id":"57","leagel_name":"divya","trade_name":"mangukiya","dealer_name":"divya","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"czfj578gj","created_date":"2022-12-21 14:08:39","modified_date":"2022-12-21 14:08:39","is_del":"0"}}
+
+02:10:31
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0137
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2896923988	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"Aansi","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"},{"id":"31","user_id":"57","leagel_name":"divya","trade_name":"mangukiya","dealer_name":"divya","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"czfj578gj","created_date":"2022-12-21 14:08:39","modified_date":"2022-12-21 14:08:39","is_del":"0"}]}
+
+02:11:03
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/addCustomer
+Execute(Time)      : 0.039
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3117759988	 || 	Accept-Encoding: gzip	 || 	Content-Length: 756	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : leagel_name=radha&trade_name=mendpara+&dealer_name=radha&mobile_number=6352548486&gst_number=iffi7575jc&place_of_supply=surat&address=surat&is_del=0
+Responce : {"statuscode":1,"msg":"customer created successfully."}
+
+02:11:04
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0127
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3399360177	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"Aansi","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"},{"id":"31","user_id":"57","leagel_name":"divya","trade_name":"mangukiya","dealer_name":"divya","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"czfj578gj","created_date":"2022-12-21 14:08:39","modified_date":"2022-12-21 14:08:39","is_del":"0"},{"id":"32","user_id":"57","leagel_name":"radha","trade_name":"mendpara","dealer_name":"radha","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"iffi7575jc","created_date":"2022-12-21 14:11:03","modified_date":"2022-12-21 14:11:03","is_del":"0"}]}
+
+02:11:11
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Customer/updateCustomer
+Execute(Time)      : 0.0566
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0587524859	 || 	Accept-Encoding: gzip	 || 	Content-Length: 842	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : leagel_name=radha&trade_name=mendpara&dealer_name=radha&mobile_number=6352548486&gst_number=iffi7575jc&place_of_supply=surat&address=surat&customer_id=32&is_del=1
+Responce : {"statuscode":1,"msg":"customer updated successfully.","data":{"id":"32","user_id":"57","leagel_name":"radha","trade_name":"mendpara","dealer_name":"radha","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"iffi7575jc","created_date":"2022-12-21 14:11:03","modified_date":"2022-12-21 14:11:03","is_del":"1"}}
+
+02:11:12
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0263
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0863800601	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"Aansi","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"},{"id":"31","user_id":"57","leagel_name":"divya","trade_name":"mangukiya","dealer_name":"divya","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"czfj578gj","created_date":"2022-12-21 14:08:39","modified_date":"2022-12-21 14:08:39","is_del":"0"}]}
+
+02:12:16
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/deleteCustomer
+Execute(Time)      : 0.0389
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2888294179	 || 	Accept-Encoding: gzip	 || 	Content-Length: 118	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : customer_id=31
+Responce : {"statuscode":1,"msg":"customer delete successfully."}
+
+02:12:17
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.0142
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1297309666	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"Aansi","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"}]}
+
+02:12:24
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0495
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[]}}
+
+02:12:28
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0332
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1391592221	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:12:43
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0169
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2267408260	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:13:25
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/addProduct
+Execute(Time)      : 0.1814
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 290	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0659930569	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : product_name=Ac&product_code=2070&is_del=0
+Responce : {"statuscode":1,"msg":"product created successfully."}
+
+02:13:27
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0121
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1258503874	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"}]}
+
+02:13:39
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/addProduct
+Execute(Time)      : 0.1686
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 304	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0814611299	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : product_name=washing+machine+&product_code=4459&is_del=0
+Responce : {"statuscode":1,"msg":"product created successfully."}
+
+02:13:41
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0643
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0942813280	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4459","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"}]}
+
+02:13:49
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/addProduct
+Execute(Time)      : 0.0323
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 290	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2143838999	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : product_name=jkl&product_code=479&is_del=0
+Responce : {"statuscode":1,"msg":"product created successfully."}
+
+02:13:50
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0124
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2366562093	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4459","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"},{"id":"36","user_id":"57","product_name":"jkl","product_code":"479","created_date":"2022-12-21 14:13:49","modified_date":"2022-12-21 14:13:49","is_del":"0"}]}
+
+02:14:00
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/updateProduct
+Execute(Time)      : 0.0306
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 389	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2711588538	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : product_name=washing+machine&product_code=4450&product_id=35&is_del=0
+Responce : {"statuscode":1,"msg":"product updated successfully.","data":{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"}}
+
+02:14:01
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0237
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3713825313	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"},{"id":"36","user_id":"57","product_name":"jkl","product_code":"479","created_date":"2022-12-21 14:13:49","modified_date":"2022-12-21 14:13:49","is_del":"0"}]}
+
+02:15:04
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/updateProduct
+Execute(Time)      : 0.1578
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 377	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1116234500	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : product_name=jkl&product_code=4794&product_id=36&is_del=0
+Responce : {"statuscode":1,"msg":"product updated successfully.","data":{"id":"36","user_id":"57","product_name":"jkl","product_code":"4794","created_date":"2022-12-21 14:13:49","modified_date":"2022-12-21 14:13:49","is_del":"0"}}
+
+02:15:05
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0361
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3697756762	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"},{"id":"36","user_id":"57","product_name":"jkl","product_code":"4794","created_date":"2022-12-21 14:13:49","modified_date":"2022-12-21 14:13:49","is_del":"0"}]}
+
+02:15:13
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/deleteProduct
+Execute(Time)      : 0.0895
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0130501761	 || 	Accept-Encoding: gzip	 || 	Content-Length: 117	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : product_id=36
+Responce : {"statuscode":1,"msg":"product delete successfully."}
+
+02:15:14
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0121
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-4102976459	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"}]}
+
+02:15:19
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0422
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:15:29
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0226
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0296495140	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:16:20
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/addSellChallan
+Execute(Time)      : 0.0593
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 425	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2332764354	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : customer_id=32&challan_date=2022-12-21&product=%5B%7B%22productid%22%3A%2234%22%2C%22quantity%22%3A%2210%22%2C%22rate%22%3A%2220%22%2C%22total%22%3A%22200.0%22%7D%2C%7B%22productid%22%3A%2235%22%2C%22quantity%22%3A%2220%22%2C%22rate%22%3A%2234.78%22%2C%22total%22%3A%22695.6%22%7D%5D
+Responce : {"statuscode":1,"msg":"challan created successfully."}
+
+02:16:21
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0151
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2299780394	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]}]}
+
+02:17:20
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/addSellChallan
+Execute(Time)      : 0.2253
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 432	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2592690601	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : customer_id=30&challan_date=2022-12-15&product=%5B%7B%22productid%22%3A%2235%22%2C%22quantity%22%3A%2234%22%2C%22rate%22%3A%227000%22%2C%22total%22%3A%22238000.0%22%7D%2C%7B%22productid%22%3A%2235%22%2C%22quantity%22%3A%2230%22%2C%22rate%22%3A%225000%22%2C%22total%22%3A%22150000.0%22%7D%5D
+Responce : {"statuscode":1,"msg":"challan created successfully."}
+
+02:17:21
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.016
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-4040173241	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:17:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0257
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3928372104	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"35","product_name":"washing machine","buyqty":0,"sellqty":0,"remain":0},{"id":"34","product_name":"Ac","buyqty":0,"sellqty":0,"remain":0}]}
+
+02:17:35
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0216
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0013481956	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:18:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/updateSellChallan
+Execute(Time)      : 0.0296
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 635	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3916081480	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : challan_id=55&customer_id=30&challan_date=2022-12-15&product=%5B%7B%22id%22%3A%22100%22%2C%22productid%22%3A%2235%22%2C%22quantity%22%3A%2234%22%2C%22rate%22%3A%227000.0000%22%2C%22total%22%3A%22238000.0%22%7D%2C%7B%22id%22%3A%22101%22%2C%22productid%22%3A%2235%22%2C%22quantity%22%3A%2230%22%2C%22rate%22%3A%225000.0000%22%2C%22total%22%3A%22150000.0%22%7D%5D&delete_id=%5B%5D
+Responce : {"statuscode":1,"msg":"challan updated successfully.","data":{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000"}]}}
+
+02:18:27
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0195
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1404509060	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:18:35
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.022
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2076433850	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"}]}
+
+02:18:38
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.029
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:18:42
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.0182
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1274049954	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:19:36
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0231
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3121959743	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:19:46
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0202
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1627716131	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"bhavnagar","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"}]}
+
+02:20:06
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0593
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:20:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0305
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2612770650	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:20:32
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0149
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2118240878	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"}]}
+
+02:20:41
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0206
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:20:44
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0148
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1348247544	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:21:53
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/getShopper
+Execute(Time)      : 0.0324
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2060172280	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"57","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352648286","address":"bhavnagar","gst_number":"hsis288hsbs","created_date":"2022-12-20 17:12:11","modified_date":"2022-12-20 17:12:11","is_del":"0"}]}
+
+02:21:56
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0319
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:21:58
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0239
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0914417382	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:22:28
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/customer/getCustomer
+Execute(Time)      : 0.015
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2381624518	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"29","user_id":"57","leagel_name":"Aansi","trade_name":"mendpara","dealer_name":"Aansi","mobile_number":"6352548486","address":"surat","place_of_supply":"surat","gst_number":"ifcj578","created_date":"2022-12-21 14:05:57","modified_date":"2022-12-21 14:05:57","is_del":"0"},{"id":"30","user_id":"57","leagel_name":"janki","trade_name":"khunt","dealer_name":"janki","mobile_number":"6352548486","address":"amreli","place_of_supply":"surat","gst_number":"uch69cj468","created_date":"2022-12-21 14:06:43","modified_date":"2022-12-21 14:06:43","is_del":"0"}]}
+
+02:22:30
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0195
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:22:32
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0163
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1986499867	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:22:37
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.019
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1016287549	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:22:40
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Product/getProduct
+Execute(Time)      : 0.0145
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2071582579	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070","created_date":"2022-12-21 14:13:25","modified_date":"2022-12-21 14:13:25","is_del":"0"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450","created_date":"2022-12-21 14:13:39","modified_date":"2022-12-21 14:13:39","is_del":"0"}]}
+
+02:23:01
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0251
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:23:06
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.0305
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1427562511	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:23:08
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.0174
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3625902207	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:23:10
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getPurchaseInvoicePayment
+Execute(Time)      : 0.0122
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2119421911	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:23:46
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0171
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1482857398	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:23:57
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0282
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3686521456	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:24:11
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.0167
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0345972265	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:24:15
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0204
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2761501959	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:26:49
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/addPurchaseInvoices
+Execute(Time)      : 0.0612
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 1065	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2319551294	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : invoices_date=2022-12-21&invoices_no=1111&shopper_id=52&gst=5%25&product=%5B%7B%22productid%22%3A%2235%22%2C%22quantity%22%3A%2236%22%2C%22rate%22%3A%221000%22%2C%22total%22%3A%2236000.0%22%7D%5D&sub_total=36000.0&product_sgst=900.0&product_cgst=900.0&round_off=0.0&invoices_total=37800.0&is_del=0
+Responce : {"statuscode":1,"msg":"purchase invoices created successfully."}
+
+02:26:50
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0213
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0641519847	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"36000.0000","product_sgst":"900.0000","product_cgst":"900.0000","round_off":"0.0000","invoices_total":"37800","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"}]}]}
+
+02:35:53
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0755
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:35:57
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0317
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0876820480	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"36000.0000","product_sgst":"900.0000","product_cgst":"900.0000","round_off":"0.0000","invoices_total":"37800","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"}]}]}
+
+02:44:27
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/updatePurchaseInvoices
+Execute(Time)      : 0.0928
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 1346	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3077011624	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : purchase_invoices_id=105&invoices_date=2022-12-21&invoices_no=1111&shopper_id=52&gst=5%25&product=%5B%7B%22id%22%3A%22104%22%2C%22productid%22%3A%2235%22%2C%22quantity%22%3A%2236%22%2C%22rate%22%3A%221000%22%2C%22total%22%3A%2236000.0%22%7D%2C%7B%22id%22%3A%22%22%2C%22productid%22%3A%2235%22%2C%22quantity%22%3A%2212%22%2C%22rate%22%3A%22104%22%2C%22total%22%3A%221248.0%22%7D%5D&sub_total=37248.0&product_sgst=931.2&product_cgst=931.2&round_off=0.6000000000058208&invoices_total=39111.0&delete_id=%5B%5D&is_del=0
+Responce : {"statuscode":1,"msg":"purchase invoices updated successfully.","data":{"id":"105","user_id":"57","shopper_id":"52","invoices_date":"2022-12-21","invoices_no":"1111","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000"}]}}
+
+02:44:28
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0156
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3273349536	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000","product_name":"washing machine"}]}]}
+
+02:45:25
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/addPurchaseInvoices
+Execute(Time)      : 0.1125
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 1079	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-4163615300	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : invoices_date=2022-12-08&invoices_no=2345&shopper_id=52&gst=28%25&product=%5B%7B%22productid%22%3A%2235%22%2C%22quantity%22%3A%2230%22%2C%22rate%22%3A%2240000%22%2C%22total%22%3A%221200000.0%22%7D%5D&sub_total=1200000.0&product_sgst=168000.0&product_cgst=168000.0&round_off=0.0&invoices_total=1536000.0&is_del=0
+Responce : {"statuscode":1,"msg":"purchase invoices created successfully."}
+
+02:45:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.02
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-4277910778	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000","product_name":"washing machine"}]},{"id":"106","user_id":"57","invoices_date":"2022-12-08","invoices_no":"2345","shopper_id":"52","gst":"28%","sub_total":"1200000.0000","product_sgst":"168000.0000","product_cgst":"168000.0000","round_off":"0.0000","invoices_total":"1536000","payment_status":"0","created_date":"2022-12-21 14:45:25","modified_date":"2022-12-21 14:45:25","is_del":"0","shopper_name":"khunt","product":[{"id":"106","purchase_invoices_id":"106","product_id":"35","product_hsn_sac":"4450","product_quantity":"30","product_rate":"40000.0000","total_amount":"1200000.0000","product_name":"washing machine"}]}]}
+
+02:45:30
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/deletePurchaseInvoices
+Execute(Time)      : 0.0647
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2958890361	 || 	Accept-Encoding: gzip	 || 	Content-Length: 128	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : purchase_invoices_id=106
+Responce : {"statuscode":1,"msg":"purchase invoices delete successfully."}
+
+02:45:31
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0209
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2517494569	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000","product_name":"washing machine"}]}]}
+
+02:45:38
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0323
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1143815789	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:45:40
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.022
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1854845322	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:46:23
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0296
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0708774534	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000","product_name":"washing machine"}]}]}
+
+02:50:14
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0544
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:50:20
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getSellChallan
+Execute(Time)      : 0.0171
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0276103615	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"54","user_id":"57","customer_id":"32","challan_date":"2022-12-21","created_date":"2022-12-21 14:16:20","modified_date":"2022-12-21 14:16:20","is_del":"0","customer_name":"mendpara","product":[{"id":"98","challan_id":"54","product_id":"34","product_quantity":"10","product_rate":"20.0000","total_amount":"200.0000","product_name":"Ac"},{"id":"99","challan_id":"54","product_id":"35","product_quantity":"20","product_rate":"34.7800","total_amount":"695.6000","product_name":"washing machine"}]},{"id":"55","user_id":"57","customer_id":"30","challan_date":"2022-12-15","created_date":"2022-12-21 14:17:20","modified_date":"2022-12-21 14:17:20","is_del":"0","customer_name":"khunt","product":[{"id":"100","challan_id":"55","product_id":"35","product_quantity":"34","product_rate":"7000.0000","total_amount":"238000.0000","product_name":"washing machine"},{"id":"101","challan_id":"55","product_id":"35","product_quantity":"30","product_rate":"5000.0000","total_amount":"150000.0000","product_name":"washing machine"}]}]}
+
+02:50:27
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0285
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2487678445	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000","product_name":"washing machine"}]}]}
+
+02:51:14
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.0179
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2509605382	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:52:10
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/addSellInvoices
+Execute(Time)      : 0.0816
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 990	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3974735792	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : invoices_date=2022-12-21&customer_id=30&gst=18%25&product=%5B%7B%22productid%22%3A%2235%22%2C%22quantity%22%3A%2234%22%2C%22rate%22%3A%2234%22%2C%22total%22%3A%221156.0%22%7D%5D&sub_total=1156.0&product_sgst=104.04&product_cgst=104.04&round_off=0.9200000000000728&invoices_total=1365.0&is_del=0
+Responce : {"statuscode":1,"msg":"sell invoices created successfully."}
+
+02:52:12
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.0204
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0673257676	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"59","user_id":"57","invoices_date":"2022-12-21","invoices_no":"jwl1","customer_id":"30","customer_name":"khunt","gst":"18%","sub_total":"1156.0000","product_sgst":"104.0400","product_cgst":"104.0400","round_off":"0.9200","invoices_total":"1365","payment_status":"0","created_date":"2022-12-21 14:52:10","modified_date":"2022-12-21 14:52:10","is_del":"0","product":[{"id":"137","sell_invoice_id":"59","product_id":"35","product_hsn_sac":"4450","product_quantity":"34","product_rate":"34.0000","total_amount":"1156.0000","product_name":"washing machine"}]}]}
+
+02:52:35
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0422
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 1181	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3969580383	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : sell_invoices_id=59&invoices_date=2022-12-21&customer_id=30&gst=12%25&product=%5B%7B%22id%22%3A%22137%22%2C%22productid%22%3A%2235%22%2C%22quantity%22%3A%2234%22%2C%22rate%22%3A%2234.0000%22%2C%22total%22%3A%221156.0%22%7D%5D&sub_total=1156.0&product_sgst=69.36&product_cgst=69.36&round_off=0.2800000000002001&invoices_total=1295.0&delete_id=%5B%5D&is_del=0
+Responce : {"statuscode":1,"msg":"sell invoices updated successfully.","data":{"id":"59","user_id":"57","customer_id":"30","invoices_date":"2022-12-21","prefix":"jwl","invoices_no":"1","gst":"12%","sub_total":"1156.0000","product_sgst":"69.3600","product_cgst":"69.3600","round_off":"0.2800","invoices_total":"1295","payment_status":"0","created_date":"2022-12-21 14:52:10","modified_date":"2022-12-21 14:52:10","is_del":"0","product":[{"id":"137","sell_invoice_id":"59","product_id":"35","product_hsn_sac":"4450","product_quantity":"34","product_rate":"34.0000","total_amount":"1156.0000"}]}}
+
+02:52:36
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.0115
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1962220467	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	auth-token: syXqTwzUavGZevm	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"59","user_id":"57","invoices_date":"2022-12-21","invoices_no":"jwl1","customer_id":"30","customer_name":"khunt","gst":"12%","sub_total":"1156.0000","product_sgst":"69.3600","product_cgst":"69.3600","round_off":"0.2800","invoices_total":"1295","payment_status":"0","created_date":"2022-12-21 14:52:10","modified_date":"2022-12-21 14:52:10","is_del":"0","product":[{"id":"137","sell_invoice_id":"59","product_id":"35","product_hsn_sac":"4450","product_quantity":"34","product_rate":"34.0000","total_amount":"1156.0000","product_name":"washing machine"}]}]}
+
+02:55:05
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.3571
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:55:08
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0446
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2839465008	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000","product_name":"washing machine"}]}]}
+
+02:56:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.033
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:56:56
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0253
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2542338288	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000","product_name":"washing machine"}]}]}
+
+02:58:55
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0435
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: syXqTwzUavGZevm	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"57","trade_name":"janki","leagal_name":"khunt","prefix":"jwl","gst_number":"7iw47sj","mobile_number":"6352648286","address":"mota varachha,surat","is_create_profile":"1","customer":[{"id":"29","user_id":"57","trade_name":"mendpara"},{"id":"30","user_id":"57","trade_name":"khunt"},{"id":"32","user_id":"57","trade_name":"mendpara"}],"shopper":[{"id":"52","user_id":"57","trade_name":"khunt"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"34","user_id":"57","product_name":"Ac","product_code":"2070"},{"id":"35","user_id":"57","product_name":"washing machine","product_code":"4450"}]}}
+
+02:59:03
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0365
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 112	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0307165118	 || 	auth-token: syXqTwzUavGZevm	 || 	
+POST     : start=-1
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"105","user_id":"57","invoices_date":"2022-12-21","invoices_no":"1111","shopper_id":"52","gst":"5%","sub_total":"37248.0000","product_sgst":"931.2000","product_cgst":"931.2000","round_off":"0.6000","invoices_total":"39111","payment_status":"0","created_date":"2022-12-21 14:26:49","modified_date":"2022-12-21 14:26:49","is_del":"0","shopper_name":"khunt","product":[{"id":"104","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"36","product_rate":"1000.0000","total_amount":"36000.0000","product_name":"washing machine"},{"id":"105","purchase_invoices_id":"105","product_id":"35","product_hsn_sac":"4450","product_quantity":"12","product_rate":"104.0000","total_amount":"1248.0000","product_name":"washing machine"}]}]}
+

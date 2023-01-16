@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Technical Information About Digital Poster</title>
+		<meta charset="UTF-8">	
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<!--Favicon-->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+		<!-- Syntax Highlighter -->
+	    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>	
+	</head>
+	<body>
+	<!-- ======================== Aw-documentation ============================ -->
+	<div class="aw-documentation">
+		<div class="container-fluid"> 	   
+			<div id="navigation"> 
+				<div class="navbar-header">
+					<a id="navbar-brand" href="index.html">Table Of Content</a>			   
+				</div>			 
+				<div class="sidebar-menu">
+					<ul class="menu">
+						 <li class=""><a href="#Home">Home</a></li>
+						 <li class=""><a href="#html-structure">About Application</a></li>
+						 <li class=""><a href="#Admin-panel-setup">Admin panel setup</a></li>
+						 <li class=""><a href="#css-structure">Technical Information</a></li>
+						 <li class=""><a href="#js-structure">Change Package</a></li>
+						 <li class=""><a href="#template-feature">Replace Ad Id</a></li>
+						 <li class=""><a href="#total-files">Change Application Icon</a></li>
+						 <li class=""><a href="#sources">Replace google.json file</a></li>
+						 <li class=""><a href="#Change Api link">Change Api link</a></li>
+						 <li class=""><a href="#support">Now Generate Signed Apk</a></li>
+					</ul>
+					<div class="aw-document-copyright">
+						© Copyright 2022, <span>Digital Poster 2022 All Right Reserved.</span> 
+					</div>
+				</div>  
+			</div>
+			<div class="aw-documentation-section">
+				<div id="Home" class="coman-sec page-section">
+					<h1>Digital Poster</h1>
+					<h4>Technical Information About Digital Poster</h4>
+					<hr>
+					<ul>
+						<li>Developed by: Arya Tech Labs.</li>
+					</ul>
+				</div>
+				
+				<div id="html-structure" class="coman-sec page-section">
+					<h2>About Application</h2>
+					<hr>
+					<p>Digital Poster is a free app that has lots of templates and features for you to create beautiful videos & stories to share in the Instagram story, Snapchat story, WhatsApp status or Facebook story and etc...</p>
+				</div>
+				
+				<!-- ======================== Start PHP Configuration ============================ -->
+				<div id="Admin-panel-setup" class="coman-sec page-section">
+					<h2>Admin panel setup</h2>
+					<hr>
+					
+					<p> -	After buying the webhosting, come to the Cpanel, than go to "MySQL® Databases"</p>	
+					<img src="assets/images/ss8.PNG" alt="Workplace" >	
+
+					<p> -	after that create database by choosing database name.</p>	
+					<img src="assets/images/ss9.PNG" alt="Workplace" >		
+
+					<p> -	after that add new user by choosing username and password.</p>	
+					<img src="assets/images/ss10.PNG" alt="Workplace" >		
+
+					<p> -	after that add user to database.</p>	
+					<img src="assets/images/ss11.PNG" alt="Workplace" >		
+
+					<p> -	tick all checklist.</p>	
+					<img src="assets/images/ss12.PNG" alt="Workplace" >	
+
+					<p> -   Now Upload digitalposter.sql file on your created database by going to myphpadmin.</p>
+
+					<p> -	Now go to file manager of cpanel and upload ‘digitalposter.zip’ folder in your cpanel file manager in public.html/digitalposter. (as your location)</p>	
+					<img src="assets/images/ss13.PNG" alt="Workplace" >	
+
+					<p> -	Extract ‘digitalposter.zip’ </p>
+					<p> -	Now Go to application/config/config.php and Change configuration $config['base_url'] as per localhost or example.com & save file.</p>
+					<img src="assets/images/ss6.PNG" alt="Workplace" >
+					
+					<p> -	Now Go to application/config/constants.php and Change configuration Constants as per localhost or example.com & save file.</p>
+					<img src="assets/images/ss6-1.PNG" alt="Workplace" >
+
+					<p> -	Now Go to application/config/database.php and Change configuration username, password, database & save file.</p>
+					<img src="assets/images/ss7.PNG" alt="Workplace" >
+					
+					<p>By going to "your project location" link for example "example.com/digitalposter" change example.com with your domain(depend on your url).</p>
+					<img src="assets/images/ss14.PNG" alt="Workplace" >	
+					
+					<ul>
+						<li>Now You can Login to Admin Panel with email and password.</li>
+						<li>Now You can chnage anything as per your requirement.</li>
+						<li>Note: If you’re experienced at cpanel and all, have configured & setup any other admin panel then you can do it. Otherwise if you receive any error, please mail us at <a href="mailto:arya.infotech3360@gmail.com">arya.infotech3360@gmail.com</a></li>
+					</ul>
+				</div>
+				<!-- ======================== End PHP Configuration ============================ -->
+			
+				<div id="css-structure" class="coman-sec page-section">
+					<h2>Technical Information</h2>
+					<hr>
+					<p>1. To Open Android Studio Click On Android Studio Icon.</p>
+					<p>2. Android Studio > Open an existing Android Studio Project > Go to the Android Project Path > Open Digital Poster Project</p>
+					<p>3. Now Change the Basic Data</p>
+				</div>
+				
+				<div id="js-structure" class="coman-sec page-section">
+					<h2>Change Package</h2>
+					<hr>
+					<p>Change AndroidManifest File > package=""
+						Change Build Gradle > applicationId=""
+					</p>
+					<div class="htmlstart">
+
+					</div>
+					<img src="assets/images/ss1.PNG" alt="Workplace" >
+				</div>
+				
+				<div id="template-feature" class="coman-sec page-section">
+					<h2>Replace Ad Id</h2>
+					<hr>
+					<h6>Replace Ad Id</h6>
+					<ul>
+						<li> res Folder > values Folder > Strings.xml</li>
+						<li> BannerAdId = Google Banner Ad Id</li>
+						<li> FullAdId = Google Full Ad Id</li>
+						<li> FBBannerAdId = Facebook Banner Ad Id</li>
+						<li> FBFullAdId = Facebook Full Ad Id</li>
+					</ul>
+					<img src="assets/images/ss2.PNG" alt="Workplace" >
+				</div>
+				
+				<div id="total-files" class="coman-sec page-section">
+					<h2>Change Application Icon </h2>
+					<hr>
+					<img src="assets/images/ss3.PNG" alt="Workplace" >
+					<p>Change AndroidManifest File > android:icon="@drawable/icon" Replace icon from drawable folder res Folder > drawable Folder > icon.png</p>  
+				</div>
+				
+				<div id="sources" class="coman-sec page-section">					
+					<h2>Replace google.json file</h2>
+					<hr>
+					<ul>
+						<p>1. Sign in to Firebase, then create your project.
+						Click on Create a project and follow the steps.
+						Add a name for your project and select the appropriate settings, then click on Create project.
+						</p> 
+						<p>2. Click , then select Project settings.</p> 
+						<p>3. In the Your apps card, select the platform for the app you want created.
+						If you already have apps, select the package name of the app for which you need a config file.
+						Follow the required steps to add Firebase to your Android app. Here are the steps:
+						Step 1 - Register app
+						Step 2 - Download config file
+						Step 3 - Add Firebase SDK
+						Step 4 - Run your app to verify installation</p> 
+						<p>4. Click  google-services.json, then change it to your app at given location in screenshots.</p> 
+					</ul>
+					<img src="assets/images/ss5.PNG" alt="Workplace" >
+				</div>	
+		
+				<div id="Change Api link" class="coman-sec page-section">					
+					<h2>Change Api link</h2>
+					<hr>
+					<ul>
+					   <p>change base url of project at given location</p> 
+					</ul>
+					<img src="assets/images/ss4.PNG" alt="Workplace" >
+				</div>	
+				
+				<div id="support" class="coman-sec page-section">
+					<h2>Now Generate Signed Apk</h2>
+					<hr>
+					<p>Follow this Step When Create New Key Store: </p>
+					<p>Android Studio > </p>
+					<p>Build > </p>
+					<p>Generate Signed Bundle/APK > </p>
+					<p>Select APK > </p>
+					<p>Click on Next >  </p>
+					<p>Create New Key store > </p>
+					<p>Fill All Details to Create New key store > </p>
+					<p>Enter Key store password > </p>
+					<p>select key alias > </p>
+					<p>key password > </p>
+					<p>Click on Next > </p>
+					<p>In Build Variants Select Release > </p>
+					<p>In Signature Versions Select V1(Jar Signature) > </p>
+					<p>Click on Finish. </p>
+					<p>Follow this Step When Choose Existing Key Store: </p>
+					<p>Android Studio > </p>
+					<p>Build > </p>
+					<p>Generate Signed Bundle/APK > </p>
+					<p>Select APK > </p>
+					<p>Click on Next > </p>
+					<p>Choose Existing Key Store > </p>
+					<p>Go to the key store Path > </p>
+					<p>Enter Key store password > </p>
+					<p>select key alias > </p>
+					<p>key password > </p>
+					<p>Click on Next > </p>
+					<p>In Build Variants Select Release > </p>
+					<p>In Signature Versions Select V1(Jar Signature) > </p>
+					<p>Click on Finish.  </p>
+					<p>Now Get Your Sign APK </p>
+					<p>Your Project path > app > release > app-release.apk </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ======================== End Aw-documentation ============================ -->
+
+	<!-- ============ J query ============= -->	
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript">
+		SyntaxHighlighter.all()
+	</script>
+	<!-- ============ Main ============= -->	
+	<script src="assets/js/main.js"></script>
+	</body>
+</html>

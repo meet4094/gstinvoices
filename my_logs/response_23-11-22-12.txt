@@ -1,0 +1,365 @@
+12:00:14
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.03
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: application/json; charset=utf-8	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","customer":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"5","user_id":"4","trade_name":"SHREE"}],"shopper":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"4","user_id":"4","trade_name":"Shreeji"},{"id":"13","user_id":"4","trade_name":"adc"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"5","user_id":"4","product_name":"Silikon Dhaga","product_code":"210"},{"id":"11","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"12","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"13","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"14","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"15","user_id":"4","product_name":"jari roll","product_code":"1025"}]}}
+
+12:01:29
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/addSellInvoices
+Execute(Time)      : 0.0496
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: d755d48e-d850-4b5a-9c7f-4e11f33b6685	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------209404145256973458567941	 || 	Cookie: cisession=d8d0902ebe09b5ac0914cc131a27a21e295e09f1	 || 	Content-Length: 1170	 || 	
+POST     : invoices_date=10%2F10%2F2022&customer_id=3&gst=12%25&product=%5B%7B%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%2C%7B%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A30%2C%22total%22%3A600%7D%5D&sub_total=800&product_sgst=6%25&product_cgst=6%25&round_off=0.20&invoices_total=872
+Responce : {"statuscode":1,"msg":"sell invoices created successfully."}
+
+12:03:47
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0183
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: b1533a92-56cb-49f2-8169-aba36298696f	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------481649224176176528871987	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=9&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:05:16
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/updatePurchaseInvoices
+Execute(Time)      : 0.0187
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 2d188d2d-64ae-4018-bbb0-dfa82d1290aa	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------901174799043483525112635	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 1411	 || 	
+POST     : purchase_invoices_id=&invoices_date=01%2F01%2F2022&invoices_no=123&shopper_id=3&gst=10%25&product=%5B%7B%22id%22%3A1%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A2%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valid purchase invoices id."}
+
+12:05:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/updatePurchaseInvoices
+Execute(Time)      : 0.0304
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 809f1a2a-a05b-4f9a-b1b1-4261b0acaaca	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------070435414526871721673547	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 1412	 || 	
+POST     : purchase_invoices_id=4&invoices_date=01%2F01%2F2022&invoices_no=123&shopper_id=3&gst=10%25&product=%5B%7B%22id%22%3A1%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A2%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":1,"msg":"purchase invoices updated successfully.","data":{"id":"4","user_id":"4","shopper_id":"3","invoices_date":"01\/01\/2022","invoices_no":"123","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-10-17 08:51:46","modified_date":"2022-10-19 11:38:12","is_del":"0","product":[{"id":"6","purchase_invoices_id":"4","product_id":"4","product_hsn_sac":"1","product_quantity":"10","product_rate":"10","total_amount":"100"},{"id":"7","purchase_invoices_id":"4","product_id":"4","product_hsn_sac":"1","product_quantity":"10","product_rate":"10","total_amount":"100"}]}}
+
+12:05:37
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0139
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: abd4a843-6fc2-4b43-a450-9481d15eeeb4	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------027346855882224170493305	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=1&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:05:42
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0102
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 2de7e5f3-67fc-4635-990b-135597682ac6	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------556761078243066162172964	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=4&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:05:47
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0134
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 4eea75dd-c3f7-4c5a-8752-7da34f553109	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------370114786924281251463596	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=7&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:05:52
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0135
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 76e75ac0-8777-4ca8-abf5-66a90df763dd	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------950766264572461915254205	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=9&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:06:26
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0222
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 1aeb4dcd-edc7-4692-bf13-37c679087040	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------334077891349786379055301	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=3&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:07:58
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getPurchaseChallan
+Execute(Time)      : 0.0157
+HEADER   : Auth-token: rIIf28g0A2zDDJj	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: a0c2fadb-50a0-4edd-babc-e3c4a797fe01	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Cookie: cisession=f051bc447b11fe82a1e706152bdc18b5fe40ddf2	 || 	Content-Length: 0	 || 	
+Responce : {"statuscode":8,"msg":"Your session has been expired. Please log in again."}
+
+12:08:10
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Challan/getPurchaseChallan
+Execute(Time)      : 0.0235
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: df5fabe0-30bf-4b19-a52e-6d78c0090877	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Cookie: cisession=ddf4ba2109ec99b6868696865da6f5d883449e17	 || 	Content-Length: 0	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"2","shopper_id":"4","challan_date":"2022-10-22","created_date":"2022-10-17 11:52:47","modified_date":"2022-10-18 17:44:45","is_del":"0","product":[{"id":"1","challan_id":"2","product_id":"4","product_quantity":"20","product_rate":"20","total_amount":"400"},{"id":"2","challan_id":"2","product_id":"4","product_quantity":"20","product_rate":"10","total_amount":"200"}]}]}
+
+12:10:43
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.0213
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: application/json; charset=utf-8	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"13","invoices_date":"10\/10\/2022","customer_id":"3","gst":"12%","sub_total":"800","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"872","created_date":"2022-11-23 12:01:29","modified_date":"2022-11-23 12:01:29","is_del":"0","product":[{"id":"81","sell_invoice_id":"13","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"82","sell_invoice_id":"13","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]},{"id":"12","invoices_date":"10\/10\/2022","customer_id":"3","gst":"12%","sub_total":"800","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"872","created_date":"2022-11-23 10:24:28","modified_date":"2022-11-23 10:24:28","is_del":"0","product":[{"id":"79","sell_invoice_id":"12","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"80","sell_invoice_id":"12","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]},{"id":"11","invoices_date":"01\/01\/2022","customer_id":"3","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-10-17 15:23:25","modified_date":"2022-10-19 11:41:04","is_del":"0","product":[{"id":"77","sell_invoice_id":"11","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"78","sell_invoice_id":"11","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]},{"id":"10","invoices_date":"01\/01\/2022","customer_id":"3","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-10-15 14:08:15","modified_date":"2022-10-19 11:39:43","is_del":"0","product":[{"id":"75","sell_invoice_id":"10","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"76","sell_invoice_id":"10","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]},{"id":"9","invoices_date":"01\/10\/2022","customer_id":"3","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-10-15 14:07:32","modified_date":"2022-10-19 11:39:56","is_del":"0","product":[{"id":"73","sell_invoice_id":"9","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"74","sell_invoice_id":"9","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]}]}
+
+12:11:02
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0254
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: bfb0644d-a74d-4a00-bf0d-19b83cb21d25	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------643359470828272378731988	 || 	Cookie: cisession=ddf4ba2109ec99b6868696865da6f5d883449e17	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=2&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:12:18
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0172
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: dbc4a3fa-6cd7-474d-9f61-5290d1131eec	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------353140696143794453646890	 || 	Cookie: cisession=ddf4ba2109ec99b6868696865da6f5d883449e17	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=4&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:12:25
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0136
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 2927239b-83f2-47b6-b2ad-09fbd5179269	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------518128821294850730315666	 || 	Cookie: cisession=ddf4ba2109ec99b6868696865da6f5d883449e17	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=6&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:12:36
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.015
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: fbcbc79a-26df-43bd-8842-e2872e3e279e	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------589384396207459423285588	 || 	Cookie: cisession=ddf4ba2109ec99b6868696865da6f5d883449e17	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=8&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:13:01
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.018
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 312deef8-784d-4b3e-8c67-e60b0b4408ee	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------750023375339504497066155	 || 	Cookie: cisession=ddf4ba2109ec99b6868696865da6f5d883449e17	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=9&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:14:34
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0205
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: eebac74f-a7d6-4d08-8363-4840b4fda174	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------120379258031627730553635	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=8&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:15:01
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0231
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: c4a3b09c-033e-4a04-aacc-7469c8f42be7	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------797452698703496171654181	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=2&invoices_date=01%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:15:31
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0148
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 32324f44-69f1-444a-a5c2-111909f25e97	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------431236878993669027672178	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=7&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:15:42
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0233
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: d649d3b9-5480-4415-8cb1-84d30829ac43	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------738775527200464057990066	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=9&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:15:46
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0126
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 404e0473-5c2d-4312-ba3e-2259be4ca5cc	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------707923046687454084557969	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=1&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:15:51
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0129
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: cff17588-3520-46e5-a1c7-22a7633591b9	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------420214990233796359411825	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=2&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:15:58
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0327
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: a66c685a-7735-44a5-bcc2-f925ea02ac7a	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------072638337197208138909730	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=4&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:16:04
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0129
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 285a7797-b68f-4c51-a70d-a6ed1fde1d37	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------265630828908942628078321	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=6&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices id."}
+
+12:16:09
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0178
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: d09e820b-f98f-424d-ad20-4def25e7723b	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------103884337745099029206537	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1298	 || 	
+POST     : sell_invoices_id=9&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:16:56
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.02
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 7344aeb4-db4c-4c81-836f-391e7879d960	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------707019725937427074235154	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=12&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:17:31
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0247
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 06cebe68-0c9d-4039-a7f0-0db5202adeba	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------177677387561271071397258	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=11&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:19:24
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0221
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: f23eb759-b1da-461d-b4ef-55b1e4c9861a	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------532529904854120825821449	 || 	Cookie: cisession=43a7d87768206a8812e6ddb35caeb143ec28c43b	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=10&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A5%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A5%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:19:49
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/getSellInvoices
+Execute(Time)      : 0.0139
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 1b797e6a-c805-4b33-9c9a-afb672fe7b1c	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Cookie: cisession=b88ac8d5ff7b5e972d2e69837b5552a8203733ef	 || 	Content-Length: 0	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"13","invoices_date":"10\/10\/2022","customer_id":"3","gst":"12%","sub_total":"800","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"872","created_date":"2022-11-23 12:01:29","modified_date":"2022-11-23 12:01:29","is_del":"0","product":[{"id":"81","sell_invoice_id":"13","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"82","sell_invoice_id":"13","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]},{"id":"12","invoices_date":"01\/01\/2022","customer_id":"3","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-11-23 10:24:28","modified_date":"2022-11-23 10:24:28","is_del":"0","product":[{"id":"79","sell_invoice_id":"12","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"80","sell_invoice_id":"12","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]},{"id":"11","invoices_date":"01\/01\/2022","customer_id":"3","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-10-17 15:23:25","modified_date":"2022-10-19 11:41:04","is_del":"0","product":[{"id":"77","sell_invoice_id":"11","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"78","sell_invoice_id":"11","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]},{"id":"10","invoices_date":"01\/01\/2022","customer_id":"3","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-10-15 14:08:15","modified_date":"2022-10-19 11:39:43","is_del":"0","product":[{"id":"75","sell_invoice_id":"10","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"76","sell_invoice_id":"10","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]},{"id":"9","invoices_date":"01\/01\/2022","customer_id":"3","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-10-15 14:07:32","modified_date":"2022-10-19 11:39:56","is_del":"0","product":[{"id":"73","sell_invoice_id":"9","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"20","total_amount":"200"},{"id":"74","sell_invoice_id":"9","product_id":"4","product_hsn_sac":"1025","product_quantity":"20","product_rate":"30","total_amount":"600"}]}]}
+
+12:20:45
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.031
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 9ad1f2a8-585a-4769-a301-73792a387890	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------012377767238654978151138	 || 	Cookie: cisession=b88ac8d5ff7b5e972d2e69837b5552a8203733ef	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=13&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A5%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A5%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:21:15
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0353
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 863006e7-f7b3-44ef-bf7e-eacdc891bf15	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------461188325774999456357544	 || 	Cookie: cisession=b88ac8d5ff7b5e972d2e69837b5552a8203733ef	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=13&invoices_date=01%2F01%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A5%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A5%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:23:07
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0497
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: f9f0f73b-f437-45b5-8628-d22ff3339eb8	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------971575876459955370940390	 || 	Cookie: cisession=b88ac8d5ff7b5e972d2e69837b5552a8203733ef	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=13&invoices_date=10%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A5%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A5%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:24:55
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0262
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: d187cb05-299c-4b2b-a50c-5a2c57a1a82f	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------377711536592483941249319	 || 	Cookie: cisession=b88ac8d5ff7b5e972d2e69837b5552a8203733ef	 || 	Content-Length: 1301	 || 	
+POST     : sell_invoices_id=13&invoices_date=10%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A13%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A13%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:25:09
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.026
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 4b2fd6f2-a72a-4e5d-969f-c571a26dff84	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------179938321818945777574506	 || 	Cookie: cisession=6df0b9b957d2a1660c4fea0edf7e6532e654dde4	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=13&invoices_date=10%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A5%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A5%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:25:49
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0181
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 98c182e7-1c67-435e-9f02-a5b7ca89f8c3	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------324341049728142810400677	 || 	Cookie: cisession=6df0b9b957d2a1660c4fea0edf7e6532e654dde4	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=13&invoices_date=10%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A5%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A5%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:31:06
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0438
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: bc7b8e73-bdab-47c1-b8d4-57924d75f7b7	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------578092064149133068049935	 || 	Cookie: cisession=6df0b9b957d2a1660c4fea0edf7e6532e654dde4	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=12&invoices_date=10%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A13%2C%22productid%22%3A5%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A14%2C%22productid%22%3A5%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":0,"msg":"Please enter valide id."}
+
+12:32:55
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/updateSellInvoices
+Execute(Time)      : 0.0491
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: a74b66f8-4c13-49c7-aa9b-c1e9a45941ad	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------130079853039194812686343	 || 	Cookie: cisession=be1f919075b0dc5d417f975081c06f514356b92c	 || 	Content-Length: 1299	 || 	
+POST     : sell_invoices_id=12&invoices_date=10%2F10%2F2022&customer_id=3&gst=10%25&product=%5B%7B%22id%22%3A79%2C%22productid%22%3A5%2C%22quantity%22%3A20%2C%22rate%22%3A10%2C%22total%22%3A200%7D%2C%7B%22id%22%3A80%2C%22productid%22%3A5%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%5D&sub_total=600&product_sgst=5%25&product_cgst=5%25&round_off=&invoices_total=660
+Responce : {"statuscode":1,"msg":"sell invoices updated successfully.","data":{"id":"12","user_id":"4","customer_id":"3","invoices_date":"10\/10\/2022","invoices_no":"","gst":"10%","sub_total":"600","product_sgst":"5","product_cgst":"5","round_off":"0","invoices_total":"660","created_date":"2022-11-23 10:24:28","modified_date":"2022-11-23 10:24:28","is_del":"0","product":[{"id":"79","sell_invoice_id":"12","product_id":"5","product_hsn_sac":"210","product_quantity":"20","product_rate":"10","total_amount":"200"},{"id":"80","sell_invoice_id":"12","product_id":"5","product_hsn_sac":"210","product_quantity":"10","product_rate":"20","total_amount":"200"}]}}
+
+12:35:18
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.043
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: application/json; charset=utf-8	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"27","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12%","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-23 10:22:09","modified_date":"2022-11-23 10:22:09","is_del":"0","product":[{"id":"35","purchase_invoices_id":"27","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"10","total_amount":"100"},{"id":"36","purchase_invoices_id":"27","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"10","total_amount":"100"}]},{"id":"26","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:58:41","modified_date":"2022-11-22 17:58:41","is_del":"0","product":[]},{"id":"25","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:58:24","modified_date":"2022-11-22 17:58:24","is_del":"0","product":[]},{"id":"24","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:57:34","modified_date":"2022-11-22 17:57:34","is_del":"0","product":[]},{"id":"23","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:44:00","modified_date":"2022-11-22 17:44:00","is_del":"0","product":[]},{"id":"22","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:30:34","modified_date":"2022-11-22 17:30:34","is_del":"0","product":[]},{"id":"21","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:29:53","modified_date":"2022-11-22 17:29:53","is_del":"0","product":[]},{"id":"20","invoices_date":"02-11-2022","invoices_no":"147","shopper_id":"13","gst":"28%","sub_total":"1068","product_sgst":"150","product_cgst":"150","round_off":"1","invoices_total":"1368","created_date":"2022-11-22 16:13:02","modified_date":"2022-11-22 16:13:02","is_del":"0","product":[]},{"id":"19","invoices_date":"09-11-2022","invoices_no":"456","shopper_id":"13","gst":"18%","sub_total":"540","product_sgst":"49","product_cgst":"49","round_off":"1","invoices_total":"638","created_date":"2022-11-22 16:10:59","modified_date":"2022-11-22 16:10:59","is_del":"0","product":[]},{"id":"18","invoices_date":"16-11-2022","invoices_no":"78","shopper_id":"3","gst":"12%","sub_total":"60","product_sgst":"4","product_cgst":"4","round_off":"1","invoices_total":"68","created_date":"2022-11-22 15:58:34","modified_date":"2022-11-22 15:58:34","is_del":"0","product":[]}]}
+
+12:35:42
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/updatePurchaseInvoices
+Execute(Time)      : 0.0216
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-4281049312	 || 	Accept-Encoding: gzip	 || 	Content-Length: 1409	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : purchase_invoices_id=25&invoices_date=01%2F01%2F2022&invoices_no=123&shopper_id=4&gst=5%25&product%5B0%5D%5Bid%5D=null&product%5B0%5D%5Bproductid%5D=null&product%5B0%5D%5Bquantity%5D=125&product%5B0%5D%5Brate%5D=45&product%5B0%5D%5Btotal%5D=5625.0&sub_total=5625.0&product_sgst=140.625&product_cgst=140.625&round_off=0.75&invoices_total=5907.0
+Responce : {"statuscode":1,"msg":"purchase invoices updated successfully.","data":{"id":"25","user_id":"4","shopper_id":"4","invoices_date":"01\/01\/2022","invoices_no":"123","gst":"5%","sub_total":"5625","product_sgst":"141","product_cgst":"141","round_off":"1","invoices_total":"5907","created_date":"2022-11-22 17:58:24","modified_date":"2022-11-22 17:58:24","is_del":"0","product":[]}}
+
+12:36:34
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0268
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: application/json; charset=utf-8	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"27","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12%","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-23 10:22:09","modified_date":"2022-11-23 10:22:09","is_del":"0","product":[{"id":"35","purchase_invoices_id":"27","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"10","total_amount":"100"},{"id":"36","purchase_invoices_id":"27","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"10","total_amount":"100"}]},{"id":"26","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:58:41","modified_date":"2022-11-22 17:58:41","is_del":"0","product":[]},{"id":"25","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"4","gst":"5%","sub_total":"5625","product_sgst":"141","product_cgst":"141","round_off":"1","invoices_total":"5907","created_date":"2022-11-22 17:58:24","modified_date":"2022-11-22 17:58:24","is_del":"0","product":[]},{"id":"24","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:57:34","modified_date":"2022-11-22 17:57:34","is_del":"0","product":[]},{"id":"23","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:44:00","modified_date":"2022-11-22 17:44:00","is_del":"0","product":[]},{"id":"22","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:30:34","modified_date":"2022-11-22 17:30:34","is_del":"0","product":[]},{"id":"21","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:29:53","modified_date":"2022-11-22 17:29:53","is_del":"0","product":[]},{"id":"20","invoices_date":"02-11-2022","invoices_no":"147","shopper_id":"13","gst":"28%","sub_total":"1068","product_sgst":"150","product_cgst":"150","round_off":"1","invoices_total":"1368","created_date":"2022-11-22 16:13:02","modified_date":"2022-11-22 16:13:02","is_del":"0","product":[]},{"id":"19","invoices_date":"09-11-2022","invoices_no":"456","shopper_id":"13","gst":"18%","sub_total":"540","product_sgst":"49","product_cgst":"49","round_off":"1","invoices_total":"638","created_date":"2022-11-22 16:10:59","modified_date":"2022-11-22 16:10:59","is_del":"0","product":[]},{"id":"18","invoices_date":"16-11-2022","invoices_no":"78","shopper_id":"3","gst":"12%","sub_total":"60","product_sgst":"4","product_cgst":"4","round_off":"1","invoices_total":"68","created_date":"2022-11-22 15:58:34","modified_date":"2022-11-22 15:58:34","is_del":"0","product":[]}]}
+
+12:36:53
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/addPurchaseInvoices
+Execute(Time)      : 0.0776
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-1762953244	 || 	Accept-Encoding: gzip	 || 	Content-Length: 983	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : invoices_date=17-11-2022&invoices_no=456&shopper_id=3&gst=12%25&product=%5B%7Bproductid%3A+null%2C+quantity%3A+45%2C+rate%3A+36%2C+total%3A+1620.0%7D%5D&sub_total=1620.0&product_sgst=97.2&product_cgst=97.2&round_off=0.599999999999909&invoices_total=1815.0
+Responce : {"statuscode":1,"msg":"purchase invoices created successfully."}
+
+12:52:23
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0552
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: application/json; charset=utf-8	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"28","invoices_date":"17-11-2022","invoices_no":"456","shopper_id":"3","gst":"12%","sub_total":"1620","product_sgst":"97","product_cgst":"97","round_off":"1","invoices_total":"1815","created_date":"2022-11-23 12:36:53","modified_date":"2022-11-23 12:36:53","is_del":"0","product":[]},{"id":"27","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12%","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-23 10:22:09","modified_date":"2022-11-23 10:22:09","is_del":"0","product":[{"id":"35","purchase_invoices_id":"27","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"10","total_amount":"100"},{"id":"36","purchase_invoices_id":"27","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"10","total_amount":"100"}]},{"id":"26","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:58:41","modified_date":"2022-11-22 17:58:41","is_del":"0","product":[]},{"id":"25","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"4","gst":"5%","sub_total":"5625","product_sgst":"141","product_cgst":"141","round_off":"1","invoices_total":"5907","created_date":"2022-11-22 17:58:24","modified_date":"2022-11-22 17:58:24","is_del":"0","product":[]},{"id":"24","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:57:34","modified_date":"2022-11-22 17:57:34","is_del":"0","product":[]},{"id":"23","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:44:00","modified_date":"2022-11-22 17:44:00","is_del":"0","product":[]},{"id":"22","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:30:34","modified_date":"2022-11-22 17:30:34","is_del":"0","product":[]},{"id":"21","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:29:53","modified_date":"2022-11-22 17:29:53","is_del":"0","product":[]},{"id":"20","invoices_date":"02-11-2022","invoices_no":"147","shopper_id":"13","gst":"28%","sub_total":"1068","product_sgst":"150","product_cgst":"150","round_off":"1","invoices_total":"1368","created_date":"2022-11-22 16:13:02","modified_date":"2022-11-22 16:13:02","is_del":"0","product":[]},{"id":"19","invoices_date":"09-11-2022","invoices_no":"456","shopper_id":"13","gst":"18%","sub_total":"540","product_sgst":"49","product_cgst":"49","round_off":"1","invoices_total":"638","created_date":"2022-11-22 16:10:59","modified_date":"2022-11-22 16:10:59","is_del":"0","product":[]}]}
+
+12:58:19
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0386
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: application/json; charset=utf-8	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","customer":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"5","user_id":"4","trade_name":"SHREE"}],"shopper":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"4","user_id":"4","trade_name":"Shreeji"},{"id":"13","user_id":"4","trade_name":"adc"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"5","user_id":"4","product_name":"Silikon Dhaga","product_code":"210"},{"id":"11","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"12","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"13","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"14","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"15","user_id":"4","product_name":"jari roll","product_code":"1025"}]}}
+
+12:58:36
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0209
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: application/json; charset=utf-8	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","customer":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"5","user_id":"4","trade_name":"SHREE"}],"shopper":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"4","user_id":"4","trade_name":"Shreeji"},{"id":"13","user_id":"4","trade_name":"adc"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"5","user_id":"4","product_name":"Silikon Dhaga","product_code":"210"},{"id":"11","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"12","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"13","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"14","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"15","user_id":"4","product_name":"jari roll","product_code":"1025"}]}}
+
+12:58:44
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.0193
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: application/json; charset=utf-8	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"28","invoices_date":"17-11-2022","invoices_no":"456","shopper_id":"3","gst":"12%","sub_total":"1620","product_sgst":"97","product_cgst":"97","round_off":"1","invoices_total":"1815","created_date":"2022-11-23 12:36:53","modified_date":"2022-11-23 12:36:53","is_del":"0","product":[]},{"id":"27","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12%","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-23 10:22:09","modified_date":"2022-11-23 10:22:09","is_del":"0","product":[{"id":"35","purchase_invoices_id":"27","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"10","total_amount":"100"},{"id":"36","purchase_invoices_id":"27","product_id":"4","product_hsn_sac":"1025","product_quantity":"10","product_rate":"10","total_amount":"100"}]},{"id":"26","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:58:41","modified_date":"2022-11-22 17:58:41","is_del":"0","product":[]},{"id":"25","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"4","gst":"5%","sub_total":"5625","product_sgst":"141","product_cgst":"141","round_off":"1","invoices_total":"5907","created_date":"2022-11-22 17:58:24","modified_date":"2022-11-22 17:58:24","is_del":"0","product":[]},{"id":"24","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:57:34","modified_date":"2022-11-22 17:57:34","is_del":"0","product":[]},{"id":"23","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:44:00","modified_date":"2022-11-22 17:44:00","is_del":"0","product":[]},{"id":"22","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:30:34","modified_date":"2022-11-22 17:30:34","is_del":"0","product":[]},{"id":"21","invoices_date":"01\/01\/2022","invoices_no":"123","shopper_id":"3","gst":"12","sub_total":"600","product_sgst":"6","product_cgst":"6","round_off":"0","invoices_total":"672","created_date":"2022-11-22 17:29:53","modified_date":"2022-11-22 17:29:53","is_del":"0","product":[]},{"id":"20","invoices_date":"02-11-2022","invoices_no":"147","shopper_id":"13","gst":"28%","sub_total":"1068","product_sgst":"150","product_cgst":"150","round_off":"1","invoices_total":"1368","created_date":"2022-11-22 16:13:02","modified_date":"2022-11-22 16:13:02","is_del":"0","product":[]},{"id":"19","invoices_date":"09-11-2022","invoices_no":"456","shopper_id":"13","gst":"18%","sub_total":"540","product_sgst":"49","product_cgst":"49","round_off":"1","invoices_total":"638","created_date":"2022-11-22 16:10:59","modified_date":"2022-11-22 16:10:59","is_del":"0","product":[]}]}
+

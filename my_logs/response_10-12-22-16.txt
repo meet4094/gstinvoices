@@ -1,0 +1,8 @@
+04:00:20
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/SellInvoices/addSellInvoices
+Execute(Time)      : 0.1242
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: cf373286-e202-4532-a822-dc86157e627d	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------676220143293962708114537	 || 	Cookie: cisession=a3027c21b09a39b8f1508c609b6674f18a1e800c	 || 	Content-Length: 1276	 || 	
+POST     : invoices_date=10%2F10%2F2022&customer_id=3&gst=12%25&product=%5B%7B%22productid%22%3A4%2C%22quantity%22%3A10%2C%22rate%22%3A20%2C%22total%22%3A200%7D%2C%7B%22productid%22%3A4%2C%22quantity%22%3A20%2C%22rate%22%3A30%2C%22total%22%3A600%7D%5D&sub_total=800&product_sgst=6%25&product_cgst=6%25&round_off=0.20&invoices_total=872&is_del=1
+Responce : {"statuscode":1,"msg":"sell invoices created successfully."}
+

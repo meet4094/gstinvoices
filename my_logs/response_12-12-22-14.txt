@@ -1,0 +1,244 @@
+02:06:33
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0465
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","prefix":"sae","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","customer":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"5","user_id":"4","trade_name":"SHREE"},{"id":"12","user_id":"4","trade_name":"SHREE GANESH"},{"id":"13","user_id":"4","trade_name":"SHREE GANESH"},{"id":"14","user_id":"4","trade_name":"SHREE GANESH"},{"id":"15","user_id":"4","trade_name":"desai"},{"id":"16","user_id":"4","trade_name":"shah"},{"id":"17","user_id":"4","trade_name":"sharma"},{"id":"18","user_id":"4","trade_name":"Mendpara"},{"id":"21","user_id":"4","trade_name":"Mangukiya"}],"shopper":[{"id":"31","user_id":"4","trade_name":"ghj"},{"id":"37","user_id":"4","trade_name":"dfg"},{"id":"44","user_id":"4","trade_name":"shah"},{"id":"45","user_id":"4","trade_name":"asd"},{"id":"47","user_id":"4","trade_name":"abc"},{"id":"49","user_id":"4","trade_name":"asd"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"5","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"11","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"12","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"13","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"14","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"15","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"24","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"25","user_id":"4","product_name":"abc","product_code":"4242"}]}}
+
+02:06:38
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.0308
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0703315981	 || 	Accept-Encoding: gzip	 || 	Content-Length: 117	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : customer_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"4","customer_id":"3","invoices_no":"11","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"51","user_id":"4","customer_id":"3","invoices_no":"10","invoices_total":"2330","tradename":"SHREE GANESH","transferamount":[{"transfer_amount":"0"},{"transfer_amount":"2000"}]},{"id":"50","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"34","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"19","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"1443","tradename":"SHREE GANESH","transferamount":[]},{"id":"18","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"17","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"16","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"15","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"14","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]}]}
+
+02:08:32
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0284
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","prefix":"sae","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","customer":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"5","user_id":"4","trade_name":"SHREE"},{"id":"12","user_id":"4","trade_name":"SHREE GANESH"},{"id":"13","user_id":"4","trade_name":"SHREE GANESH"},{"id":"14","user_id":"4","trade_name":"SHREE GANESH"},{"id":"15","user_id":"4","trade_name":"desai"},{"id":"16","user_id":"4","trade_name":"shah"},{"id":"17","user_id":"4","trade_name":"sharma"},{"id":"18","user_id":"4","trade_name":"Mendpara"},{"id":"21","user_id":"4","trade_name":"Mangukiya"}],"shopper":[{"id":"31","user_id":"4","trade_name":"ghj"},{"id":"37","user_id":"4","trade_name":"dfg"},{"id":"44","user_id":"4","trade_name":"shah"},{"id":"45","user_id":"4","trade_name":"asd"},{"id":"47","user_id":"4","trade_name":"abc"},{"id":"49","user_id":"4","trade_name":"asd"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"5","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"11","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"12","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"13","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"14","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"15","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"24","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"25","user_id":"4","product_name":"abc","product_code":"4242"}]}}
+
+02:08:36
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.0364
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-0537927161	 || 	Accept-Encoding: gzip	 || 	Content-Length: 117	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : customer_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"4","customer_id":"3","invoices_no":"11","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"51","user_id":"4","customer_id":"3","invoices_no":"10","invoices_total":"2330","tradename":"SHREE GANESH","transferamount":[{"transfer_amount":"0"},{"transfer_amount":"2000"}]},{"id":"50","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"34","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"19","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"1443","tradename":"SHREE GANESH","transferamount":[]},{"id":"18","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"17","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"16","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"15","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"14","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]}]}
+
+02:08:42
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.0196
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-2836866138	 || 	Accept-Encoding: gzip	 || 	Content-Length: 117	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : customer_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"4","customer_id":"3","invoices_no":"11","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"51","user_id":"4","customer_id":"3","invoices_no":"10","invoices_total":"2330","tradename":"SHREE GANESH","transferamount":[{"transfer_amount":"0"},{"transfer_amount":"2000"}]},{"id":"50","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"34","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"19","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"1443","tradename":"SHREE GANESH","transferamount":[]},{"id":"18","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"17","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"16","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"15","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"14","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]}]}
+
+02:15:47
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/addSellInvoicePayment
+Execute(Time)      : 0.0296
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: a74e1a04-37a1-40ab-b467-319c6edbe64b	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------984490586866319251781316	 || 	Cookie: cisession=1b3a0818bd286c1c9148ee4dcd65e0fed84968ea	 || 	Content-Length: 1204	 || 	
+POST     : customer_id=3&invoices_no=5&payment_mode=1&payment_date=01-01-2022&invoices_total=5000&transfer_amount=0&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash
+Responce : {"statuscode":4,"msg":"Please enter transfer amount."}
+
+02:15:54
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/addSellInvoicePayment
+Execute(Time)      : 0.0124
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 6cb3f9bd-dbdb-41ef-9a1d-c064b1780b46	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------375929988516919964657777	 || 	Cookie: cisession=07c5411ef7d00b06c13af5583dfb7ba65c6ebd27	 || 	Content-Length: 1204	 || 	
+POST     : customer_id=3&invoices_no=5&payment_mode=1&payment_date=01-01-2022&invoices_total=5000&transfer_amount=0&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash
+Responce : {"statuscode":4,"msg":"Please enter transfer amount."}
+
+02:16:21
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/addSellInvoicePayment
+Execute(Time)      : 0.0166
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 4d9c5199-c3ff-46ce-8dd2-76c2330c4833	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------212616361781934905511178	 || 	Cookie: cisession=07c5411ef7d00b06c13af5583dfb7ba65c6ebd27	 || 	Content-Length: 1204	 || 	
+POST     : customer_id=3&invoices_no=5&payment_mode=1&payment_date=01-01-2022&invoices_total=5000&transfer_amount=0&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash
+Responce : {"statuscode":1,"msg":"sell invoices payment successfully."}
+
+02:18:16
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/addSellInvoicePayment
+Execute(Time)      : 0.0227
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 5540b961-089b-44c7-b7b3-9aec0f50f3c5	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------379443807292448448119368	 || 	Cookie: cisession=07c5411ef7d00b06c13af5583dfb7ba65c6ebd27	 || 	Content-Length: 1204	 || 	
+POST     : customer_id=3&invoices_no=5&payment_mode=1&payment_date=01-01-2022&invoices_total=5000&transfer_amount=0&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash
+Responce : {"statuscode":1,"msg":"sell invoices payment successfully."}
+
+02:18:44
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/addSellInvoicePayment
+Execute(Time)      : 0.0338
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 4204fe09-1c48-40a1-b4d9-cba32789bd91	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------138211938776199624958840	 || 	Cookie: cisession=07c5411ef7d00b06c13af5583dfb7ba65c6ebd27	 || 	Content-Length: 1204	 || 	
+POST     : customer_id=3&invoices_no=5&payment_mode=1&payment_date=01-01-2022&invoices_total=5000&transfer_amount=0&amount=5000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash
+Responce : {"statuscode":1,"msg":"sell invoices payment successfully."}
+
+02:32:05
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0289
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 16f9c724-758f-4dae-91a2-14fcb6c248ea	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------308407337374760468724307	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1202	 || 	
+POST     : sell_invoices_payment_id=8&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash&status=1
+Responce : {"statuscode":4,"msg":"Please enter invoices total."}
+
+02:32:27
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0124
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 990e5cc1-d2d0-4222-bf78-680f41a3cfa0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------579798319455007779563149	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1315	 || 	
+POST     : sell_invoices_payment_id=8&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash&status=1&invoices_total=
+Responce : {"statuscode":4,"msg":"Please enter invoices total."}
+
+02:32:41
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0142
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: bbcaedd7-4103-4240-b170-f41612c9790b	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------072455201572630053991178	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1320	 || 	
+POST     : sell_invoices_payment_id=8&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash&status=1&invoices_total=50000
+Responce : {"statuscode":4,"msg":"Please enter transfer amount."}
+
+02:33:38
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0203
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 50138df4-427c-49cb-8a0a-27e742a0357f	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------360246336700343918496255	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1430	 || 	
+POST     : sell_invoices_payment_id=9&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&invoices_total=&transfera_mount=0&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash&status=1
+Responce : {"statuscode":4,"msg":"Please enter invoices total."}
+
+02:33:51
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0119
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 14f7aaa0-6fa9-4017-8ed3-08e9ca1ccdd1	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------495005501588419772105440	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1434	 || 	
+POST     : sell_invoices_payment_id=9&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&invoices_total=5000&transfera_mount=0&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash&status=1
+Responce : {"statuscode":4,"msg":"Please enter transfer amount."}
+
+02:35:03
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0286
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: dd5eaec3-58fc-4de2-83ca-9ce43038b12e	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------430799289757788359084542	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1433	 || 	
+POST     : sell_invoices_payment_id=9&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&invoices_total=5000&ransfer_amount=0&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash&status=1
+Responce : {"statuscode":4,"msg":"Please enter transfer amount."}
+
+02:35:12
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0161
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 5bcf90b0-9db2-46dc-a8fd-6583ceb6fd10	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------984771490321215487522811	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1434	 || 	
+POST     : sell_invoices_payment_id=9&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&invoices_total=5000&transfer_amount=0&amount=1000&cheque_number=144411&bank_detail=sbi&transaction_detail=cash&status=1
+Responce : {"statuscode":0,"msg":"Please enter valide sell invoices payment id."}
+
+02:36:01
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0696
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","prefix":"sae","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","customer":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"5","user_id":"4","trade_name":"SHREE"},{"id":"12","user_id":"4","trade_name":"SHREE GANESH"},{"id":"13","user_id":"4","trade_name":"SHREE GANESH"},{"id":"14","user_id":"4","trade_name":"SHREE GANESH"},{"id":"15","user_id":"4","trade_name":"desai"},{"id":"16","user_id":"4","trade_name":"shah"},{"id":"17","user_id":"4","trade_name":"sharma"},{"id":"18","user_id":"4","trade_name":"Mendpara"},{"id":"21","user_id":"4","trade_name":"Mangukiya"}],"shopper":[{"id":"31","user_id":"4","trade_name":"ghj"},{"id":"37","user_id":"4","trade_name":"dfg"},{"id":"44","user_id":"4","trade_name":"shah"},{"id":"45","user_id":"4","trade_name":"asd"},{"id":"47","user_id":"4","trade_name":"abc"},{"id":"49","user_id":"4","trade_name":"asd"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"5","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"11","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"12","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"13","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"14","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"15","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"24","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"25","user_id":"4","product_name":"abc","product_code":"4242"}]}}
+
+02:36:22
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0142
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: f5c64d9a-ab6d-4759-b616-bb84123088aa	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------335107798816926073560821	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1319	 || 	
+POST     : sell_invoices_payment_id=2&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&invoices_total=2000&transfer_amount=0&amount=1000&cheque_number=&bank_detail=&transaction_detail=cash
+Responce : {"statuscode":4,"msg":"Please enter cheque number."}
+
+02:36:47
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.0278
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Content-Type: multipart/form-data; boundary=--dio-boundary-3932243122	 || 	Accept-Encoding: gzip	 || 	Content-Length: 117	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	Host: envatomarket.aryatechlabs.com	 || 	
+POST     : customer_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"4","customer_id":"3","invoices_no":"11","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"51","user_id":"4","customer_id":"3","invoices_no":"10","invoices_total":"2330","tradename":"SHREE GANESH","transferamount":[{"transfer_amount":"0"},{"transfer_amount":"2000"}]},{"id":"50","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"34","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"19","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"1443","tradename":"SHREE GANESH","transferamount":[]},{"id":"18","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"17","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"16","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"15","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"14","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]}]}
+
+02:42:02
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0343
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: a019e3de-845b-4b59-900e-6cb64573cd1a	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------858737635417227506628817	 || 	Cookie: cisession=c10ae452dd4dfe4f202578fa8607d5aed792b334	 || 	Content-Length: 1319	 || 	
+POST     : sell_invoices_payment_id=2&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&invoices_total=2000&transfer_amount=0&amount=1000&cheque_number=&bank_detail=&transaction_detail=cash
+Responce : {"statuscode":1,"msg":"sell invoices payment updated successfully.","data":{"id":"2","user_id":"0","customer_id":"3","invoices_no":"6","payment_mode":"1","payment_date":"01-01-2022","invoices_total":"2000","transfer_amount":"0","amount":"1000","cheque_number":"","bank_detail":"","transaction_detail":"cash","status":"1"}}
+
+02:43:20
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/updateSellInvoicePayment
+Execute(Time)      : 0.0219
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: d960e4c8-4185-4169-9f04-4c8d83c3f7de	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------555198014496848547972879	 || 	Cookie: cisession=2a92095a564943f5b09c5e20c0a2f928d8b38c48	 || 	Content-Length: 1319	 || 	
+POST     : sell_invoices_payment_id=2&customer_id=3&invoices_no=6&payment_mode=1&payment_date=01-01-2022&invoices_total=2000&transfer_amount=0&amount=1000&cheque_number=&bank_detail=&transaction_detail=cash
+Responce : {"statuscode":1,"msg":"sell invoices payment updated successfully.","data":{"id":"2","user_id":"0","customer_id":"3","invoices_no":"6","payment_mode":"1","payment_date":"01-01-2022","invoices_total":"2000","transfer_amount":"0","amount":"1000","cheque_number":"","bank_detail":"","transaction_detail":"cash","status":"0"}}
+
+02:46:59
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/deleteSellInvoicePayment
+Execute(Time)      : 0.0235
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 525248d5-656d-4dba-8af9-e16cbeb47a86	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------761167207239799044719977	 || 	Cookie: cisession=2a92095a564943f5b09c5e20c0a2f928d8b38c48	 || 	Content-Length: 180	 || 	
+POST     : sell_invoices_payment_id=2
+Responce : {"statuscode":1,"msg":"sell invoices payment delete successfully."}
+
+02:49:04
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getPurchaseInvoicePayment
+Execute(Time)      : 0.0418
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 61c6f332-9b66-40a3-bd66-65cd04c4db7b	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------784600272937369386238315	 || 	Cookie: cisession=2a92095a564943f5b09c5e20c0a2f928d8b38c48	 || 	Content-Length: 166	 || 	
+POST     : shopper_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:53:46
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getPurchaseInvoicePayment
+Execute(Time)      : 0.0252
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 52aa80b7-240f-467c-8ac5-8c05f19e142a	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------915634733605987941758054	 || 	Cookie: cisession=af8daa522ef1d91e034b4e6111a28f2016dca270	 || 	Content-Length: 166	 || 	
+POST     : shopper_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:53:51
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getPurchaseInvoicePayment
+Execute(Time)      : 0.0124
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 7a98dd58-8d9f-4b54-97da-1c4aed5f14c2	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------931548413023943001193234	 || 	Cookie: cisession=af8daa522ef1d91e034b4e6111a28f2016dca270	 || 	Content-Length: 166	 || 	
+POST     : shopper_id=1
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:54:35
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getPurchaseInvoicePayment
+Execute(Time)      : 0.0202
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 872cc975-60fc-4ee2-b81e-77f08e0b0aec	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------560143350325922050627030	 || 	Cookie: cisession=af8daa522ef1d91e034b4e6111a28f2016dca270	 || 	Content-Length: 166	 || 	
+POST     : shopper_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:55:10
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/user/getProfile
+Execute(Time)      : 0.0382
+HEADER   : User-Agent: Dart/2.17 (dart:io)	 || 	Accept: application/json	 || 	Accept-Encoding: gzip	 || 	Content-Length: 0	 || 	Host: envatomarket.aryatechlabs.com	 || 	Content-Type: application/json; charset=utf-8	 || 	auth-token: VZ4tAsOg0SrDep9	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":{"uid":"4","trade_name":"adc","leagal_name":"xyz","prefix":"sae","gst_number":"abc24cscc12csc","mobile_number":"1234567890","address":"1,abc,scsc","is_create_profile":"1","customer":[{"id":"3","user_id":"4","trade_name":"SHREE GANESH"},{"id":"5","user_id":"4","trade_name":"SHREE"},{"id":"12","user_id":"4","trade_name":"SHREE GANESH"},{"id":"13","user_id":"4","trade_name":"SHREE GANESH"},{"id":"14","user_id":"4","trade_name":"SHREE GANESH"},{"id":"15","user_id":"4","trade_name":"desai"},{"id":"16","user_id":"4","trade_name":"shah"},{"id":"17","user_id":"4","trade_name":"sharma"},{"id":"18","user_id":"4","trade_name":"Mendpara"},{"id":"21","user_id":"4","trade_name":"Mangukiya"}],"shopper":[{"id":"31","user_id":"4","trade_name":"ghj"},{"id":"37","user_id":"4","trade_name":"dfg"},{"id":"44","user_id":"4","trade_name":"shah"},{"id":"45","user_id":"4","trade_name":"asd"},{"id":"47","user_id":"4","trade_name":"abc"},{"id":"49","user_id":"4","trade_name":"asd"}],"gstPercentage":[{"id":"1","gst":"5"},{"id":"2","gst":"12"},{"id":"3","gst":"18"},{"id":"4","gst":"28"}],"product":[{"id":"5","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"11","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"12","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"13","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"14","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"15","user_id":"4","product_name":"jari roll","product_code":"1025"},{"id":"24","user_id":"4","product_name":"abcd","product_code":"2050"},{"id":"25","user_id":"4","product_name":"abc","product_code":"4242"}]}}
+
+02:55:22
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getPurchaseInvoicePayment
+Execute(Time)      : 0.0219
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 7d973efb-3609-4c4d-a89d-952a90391ca5	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------697315111584045151987126	 || 	Cookie: cisession=65e2a630bec52be6dc9d533dbf9dc46d874ee558	 || 	Content-Length: 166	 || 	
+POST     : shopper_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[]}
+
+02:55:29
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.024
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: c799fb02-66fb-4e74-b38d-0c7d23970d24	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------108720411362115448354073	 || 	Cookie: cisession=66a58aec3a0ab627df03cc6d3997769cf5c9f960	 || 	Content-Length: 167	 || 	
+POST     : customer_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"4","customer_id":"3","invoices_no":"11","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"51","user_id":"4","customer_id":"3","invoices_no":"10","invoices_total":"2330","tradename":"SHREE GANESH","transferamount":[{"transfer_amount":"2000"}]},{"id":"50","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"34","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"19","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"1443","tradename":"SHREE GANESH","transferamount":[]},{"id":"18","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"17","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"16","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"15","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"14","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]}]}
+
+02:58:27
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Payment/getSellInvoicePayment
+Execute(Time)      : 0.0159
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: 7f987ee6-6a7e-4442-b3d5-a4ef932e572a	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------961636955680272899543367	 || 	Cookie: cisession=fe8b0ecb7c3987dd38e4e17a5dea13293b10234f	 || 	Content-Length: 167	 || 	
+POST     : customer_id=3
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"52","user_id":"4","customer_id":"3","invoices_no":"11","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"51","user_id":"4","customer_id":"3","invoices_no":"10","invoices_total":"2330","tradename":"SHREE GANESH","transferamount":[{"transfer_amount":"2000"}]},{"id":"50","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"34","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"19","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"1443","tradename":"SHREE GANESH","transferamount":[]},{"id":"18","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"17","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"16","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"660","tradename":"SHREE GANESH","transferamount":[]},{"id":"15","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]},{"id":"14","user_id":"4","customer_id":"3","invoices_no":"","invoices_total":"872","tradename":"SHREE GANESH","transferamount":[]}]}
+

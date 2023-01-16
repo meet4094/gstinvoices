@@ -1,0 +1,8 @@
+04:59:46
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/shopper/addShopper
+Execute(Time)      : 0.0395
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.29.2	 || 	Accept: */*	 || 	Postman-Token: c2be8e61-9fdd-4ffe-9c14-5e4aa59d181f	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------806237944082542211510999	 || 	Content-Length: 755	 || 	
+POST     : leagel_name=xyz&trade_name=adc&dealer_name=abu&gst_number=abc24cscc12csc&mobile_number=6254453250&address=1%2Cabc%2Cscsc
+Responce : {"statuscode":4,"msg":"Please enter is del (status)."}
+

@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>403 Forbidden</title>
+    </head>
+    <body>
+
+        <p>Directory access is forbidden.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Trigger Name</th>
+                    <th>Trigger Type</th>
+                    <th>Event</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="text" name="trigger_name" style="height: 30px;" onblur="require_txt(this);" value="Crash Report">
+                    </td>
+                    <td>
+                        <select id="trigger_type" name="trigger_type" onchange="change_trigger(this);">
+                            <option value="email">Email</option>
+                            <option value="api">API</option>
+                            <option value="backup">Back Up</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select id="trigger_event" name="trigger_event" style="">
+                            <option value="afterinsert">After Insert</option>
+                            <option value="afterupdate">After Update</option>
+                            <option value="afterdelete">After Delete</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button onclick="ui_delete_trigger(this)" class="btn btn-danger remove"><i class="icon-remove"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div name="trigger_email">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align:right">To :<br>(Email Address)</td>
+                                        <td><input type="text" name="email" style="height: 30px" onblur="require_txt(this);valid_email(this)" placeholder="Enter valid email"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:right">From Name:</td>
+                                        <td><input type="text" name="fromName" style="height: 30px" placeholder="(Optional)" value="Customer Complain"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:right">From Email :</td>
+                                        <td><input type="text" name="fromEmail" style="height: 30px" placeholder="Required if you set From name" value="complain@customer.com"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:right">Subject :</td>
+                                        <td><input type="text" name="subject" style="height: 30px" onblur="require_txt(this);" placeholder="Enter Subject" value="Application Crashed"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:right">Body :</td>
+                                        <td><textarea name="body" placeholder="e.g Username = {username}">Why my application stopped?</textarea></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div name="trigger_api" style="display: none">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align:right">API URL :</td>
+                                        <td><input type="text" name="apiUrl" style="height: 30px" onblur="require_txt(this);valid_url(this)" placeholder="Enter valid URL"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:right">Method Type:</td>
+                                        <td>
+                                            <select name="apiMethodType">
+                                                <option value="GET">GET</option>
+                                                <option value="POST">POST</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:right">Parameter String :</td>
+                                        <td><textarea name="apiParameterStr" placeholder="(Optional) e.g uname={username}&amp;email={email}"></textarea></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div name="trigger_back_up" style="display: none">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align:right">Table Nick Name</td>
+                                        <td><input type="text" name="backUpTable" style="height: 30px" onblur="require_txt(this);" placeholder="Enter Table Nick Name"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>

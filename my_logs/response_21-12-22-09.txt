@@ -1,0 +1,7 @@
+09:40:52
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getStockReport
+Execute(Time)      : 0.0394
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: 9b358ff4-b9e1-444c-b641-d43cb676267d	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Length: 0	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"33","product_name":"jklh","buyqty":0,"sellqty":0,"remain":0},{"id":"32","product_name":"ac","buyqty":0,"sellqty":0,"remain":0},{"id":"30","product_name":"abc","buyqty":0,"sellqty":0,"remain":0},{"id":"25","product_name":"abc","buyqty":0,"sellqty":0,"remain":0},{"id":"24","product_name":"abcd","buyqty":0,"sellqty":0,"remain":0},{"id":"15","product_name":"jari roll","buyqty":0,"sellqty":0,"remain":0},{"id":"14","product_name":"jari roll","buyqty":"1425","sellqty":"65","remain":1360},{"id":"13","product_name":"jari roll","buyqty":0,"sellqty":"37","remain":-37},{"id":"12","product_name":"jari roll","buyqty":"47","sellqty":"70","remain":-23},{"id":"11","product_name":"jari roll","buyqty":"25","sellqty":"48","remain":-23}]}
+

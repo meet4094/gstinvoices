@@ -1,0 +1,21 @@
+01:04:41
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getProfitReport
+Execute(Time)      : 0.0277
+HEADER   : Auth-token: 4rxatavzhtorNUH	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: 9d8e860b-4dab-497a-b551-788dbe72fd01	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------419307985637212550046516	 || 	Cookie: cisession=05d76a477bd9e86c92233a34f156a5046eb6751a	 || 	Content-Length: 160	 || 	
+POST     : len=50
+
+01:06:59
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getProfitReport
+Execute(Time)      : 0.0209
+HEADER   : Auth-token: 4rxatavzhtorNUH	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: b940ce99-9b59-4675-a763-0bb5b7b9cd02	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------812590189610046707888756	 || 	Cookie: cisession=ff00a1794d73c1d912f392945f82c55b3b95cbab	 || 	Content-Length: 160	 || 	
+POST     : len=50
+
+01:08:45
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getProfitReport
+Execute(Time)      : 0.0268
+HEADER   : Auth-token: 4rxatavzhtorNUH	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: e5f79e3f-a755-4369-9de8-c0ca5900d5e1	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------678497563579289925414422	 || 	Cookie: cisession=ff00a1794d73c1d912f392945f82c55b3b95cbab	 || 	Content-Length: 160	 || 	
+POST     : len=50
+

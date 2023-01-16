@@ -1,0 +1,15 @@
+09:05:18
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/PurchaseInvoices/getPurchaseInvoices
+Execute(Time)      : 0.9734
+HEADER   : Auth-token: VZ4tAsOg0SrDep9	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: 671c9a41-caf1-4bbc-85fb-e8354dd42931	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Length: 0	 || 	
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"id":"100","user_id":"4","invoices_date":"08-12-2022","invoices_no":"7845","shopper_id":"44","gst":"12%","sub_total":"483","product_sgst":"29","product_cgst":"29","round_off":"0","invoices_total":"541","payment_status":"0","created_date":"2022-12-10 11:09:06","modified_date":"2022-12-10 11:09:06","is_del":"0","shopper_name":"shah","product":[{"id":"99","purchase_invoices_id":"100","product_id":"12","product_hsn_sac":"1025","product_quantity":"23","product_rate":"21","total_amount":"483","product_name":"jari roll"}]},{"id":"102","user_id":"4","invoices_date":"02-12-2022","invoices_no":"455","shopper_id":"31","gst":"12%","sub_total":"1025","product_sgst":"62","product_cgst":"62","round_off":"0","invoices_total":"1148","payment_status":"0","created_date":"2022-12-10 11:46:18","modified_date":"2022-12-10 11:46:18","is_del":"0","shopper_name":"ghj","product":[{"id":"101","purchase_invoices_id":"102","product_id":"5","product_hsn_sac":"2050","product_quantity":"41","product_rate":"25","total_amount":"1025","product_name":"abcd"}]}]}
+
+09:05:36
+======================================================================================================================================
+URL      : http://envatomarket.aryatechlabs.com/gstinvoice/api/Report/getProfitReport
+Execute(Time)      : 0.1096
+HEADER   : Auth-token: 4rxatavzhtorNUH	 || 	User-Agent: PostmanRuntime/7.30.0	 || 	Accept: */*	 || 	Postman-Token: 5cfb2f3f-d7fa-45bc-b434-4ba28a8e9e89	 || 	Host: envatomarket.aryatechlabs.com	 || 	Accept-Encoding: gzip, deflate, br	 || 	Connection: keep-alive	 || 	Content-Type: multipart/form-data; boundary=--------------------------575845088825423369674951	 || 	Cookie: cisession=dd59602636fa0dce3bb9010b8fec4a8ba2a85620	 || 	Content-Length: 160	 || 	
+POST     : len=50
+Responce : {"statuscode":1,"msg":"Success!!","data":[{"buygst":"600","buyamount":"5600","sellgst":"12","sellamount":"872","buymonth":"11","buyyear":"2022","sellmonth":"1","sellyear":"2022"},{"buygst":"27000","buyamount":"252000","sellgst":"10008","sellamount":"114966","buymonth":"11","buyyear":"2022","sellmonth":null,"sellyear":null},{"buygst":"246","buyamount":"2293","sellgst":"12","sellamount":"872","buymonth":"12","buyyear":"2022","sellmonth":"1","sellyear":"2022"},{"buygst":"11070","buyamount":"103185","sellgst":"10008","sellamount":"114966","buymonth":"12","buyyear":"2022","sellmonth":null,"sellyear":null}]}
+
